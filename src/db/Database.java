@@ -1,13 +1,13 @@
 package db;
 
+import static functions.CommonFunctions.log;
+
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import javax.xml.transform.Result;
-
 import com.mysql.jdbc.Connection;
-import com.mysql.jdbc.ResultSetMetaData;
+import com.mysql.jdbc.PreparedStatement;
 import com.mysql.jdbc.Statement;
 
 public class Database {
@@ -17,22 +17,34 @@ public class Database {
 	private static String USER = "root";
 	private static String SGBD = "mysql";
 	private static String SERVER_NAME = "localhost";
+	private static String TAG = "Database";
+	private static Database instance;
 	private Connection con;
+	public static int count = 0;
 	
-	public Database() throws SQLException {
+	private Database() {
 		loadDriver();
-		System.out.println("Connection etablishing...");
-		con = (Connection) DriverManager.getConnection("jdbc:" +
-														SGBD +
-														"://" +
-														SERVER_NAME +
-														"/" +
-														DB_NAME, USER, PASSWORD);
-		System.out.println("Connection etablished !");
+		con = createConnection();
+	}
+	
+	private Connection createConnection() {
+		Connection con = null;
+		try {
+			log(TAG, "Connection etablishing...");
+			con = (Connection) DriverManager.getConnection("jdbc:" +
+															SGBD +
+															"://" +
+															SERVER_NAME +
+															"/" +
+															DB_NAME, USER, PASSWORD);
+			log(TAG, "Connection etablished !");
+		} catch(SQLException e) {
+			e.printStackTrace();
+		} return con;
 	}
 	
 	private void loadDriver() {
-		System.out.println("Loading driver...");
+		log(TAG, "Loading driver...");
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
 		} catch (InstantiationException | IllegalAccessException
@@ -40,28 +52,44 @@ public class Database {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println("Driver Loaded !");
+		log(TAG, "Driver Loaded !");
 	}
 	
-	public Connection getCon() {
-		return con;
+	public static synchronized Database getInstance() {
+		if(instance == null) instance = new Database();
+		return instance;
+	}
+	
+	public Connection getConnection() {
+		return instance.con;
 	}
 	
 	public void disconnect() {
-		
+		try {
+			log(TAG, "Database disconnecting...");
+			getConnection().close();
+			log(TAG, "Database disconnected");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		log(TAG, count + " requests executed during this session");
+		instance = null;
+		count = 0;
 	}
 	
-	public int execUpdate(String sqlQuery) throws SQLException {
-	      Statement state = (Statement) con.createStatement();
-	      int res = state.executeUpdate(sqlQuery);
-	      state.close();
-	      return res;
+	public int execUpdate(PreparedStatement preStmnt) throws SQLException {
+		int id = -1;
+		preStmnt.executeUpdate();
+		ResultSet rs = preStmnt.getGeneratedKeys();
+		if(rs.next()) id = rs.getInt(1);
+		rs.close();
+		count++;
+		return id;
 	}
 	
-	public ResultSetMetaData execQuery(String sqlQuery) throws SQLException {
-	      Statement state = (Statement) con.createStatement();
-	      ResultSet res = (ResultSet) state.executeQuery(sqlQuery);
-	      state.close();
-	      return (ResultSetMetaData) res.getMetaData();
+	public ResultSet execQuery(PreparedStatement preStmnt) throws SQLException {
+		count++;
+		return (ResultSet) preStmnt.executeQuery();
 	}
 }
