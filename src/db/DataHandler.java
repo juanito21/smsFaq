@@ -1,120 +1,156 @@
 package db;
 
+import static functions.CommonFunctions.log;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.AbstractMap;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
 import com.mysql.jdbc.PreparedStatement;
 import com.mysql.jdbc.Statement;
 
+/**
+ * Handle data from database
+ * @author Jean
+ * @param
+ *
+ */
 public class DataHandler {
 	
-	private Database db;
-	private PreparedStatement preStmnt;
-	private ResultSet rs;
+	protected Database db;
+	protected PreparedStatement preStmnt;
+	protected ResultSet rs;
 	private static String TAG = "DataHandler";
 	
-	public DataHandler(Database myDB) throws SQLException {
+	/**
+	 * The constructor
+	 * @param myDB : a database object is required. This param determine the database to handle.
+	 */
+	public DataHandler(Database myDB) {
 		db = myDB;
 	}
 	
-	public void start() {
-		
-	}
-	
+	/**
+	 * Close the database handler
+	 */
 	public void close() {
 			try {
 				if(preStmnt!=null) preStmnt.close();
 				if(rs!=null) rs.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
+				log(TAG, "An error was occured during connection closing.");
 				e.printStackTrace();
 			}
 	}
-	public void commit() {
+	
+	/**
+	 * Get the String formated for SQL query field
+	 * @param data
+	 * @return the String formated
+	 */
+	public <V> String getFieldUpdateFormat(LinkedHashMap<String, V> data) {
+		String res = "";
+		for(Entry<String, V> e : data.entrySet()) res += e.getKey() + ",";
+		return res.substring(0, res.length()-1);
+	}
+	
+	/**
+	 * Get the String formated for SQL query value
+	 * @param n
+	 * @return the String formated
+	 */
+	public String getDataValueUpdateFormat(int n) {
+		String res = "";
+		for(int i=0;i<n;i++) {
+			res += "?";
+			if(i<n-1) res+=",";
+		} return res;
+	}
+	
+	/**
+	 * Get the value of recording data
+	 * @param data
+	 * @return the String value of data
+	 */
+	public <V> String getDataValue(LinkedHashMap<String, V> data) {
+		String res = "(";
+		int i = 0;
+		for(Entry<String, V> e : data.entrySet()) {
+			res += e.getValue();
+			if(i<data.size()-1) res += ",";
+			res += ")";
+		} return res;
+	}
+	
+	/**
+	 * Add something in the database
+	 * @param tableName : the table name
+	 * @param data : the data to save
+	 * @param msg : message in case of an error is detected
+	 * @return the insert id or -1 in case of an error is detected
+	 */
+	public <V> int addSomething(String tableName, LinkedHashMap<String, V> data, String msg) {
+		String sql = "INSERT INTO " + tableName + "(" + getFieldUpdateFormat(data) + ") values (" + getDataValueUpdateFormat(data.size()) + ");"; 
+		int id = -1;
+		int i = 1;
 		try {
-			db.getConnection().commit();
+			preStmnt = (PreparedStatement) db.getConnection().prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+			for(Entry<String, V> e : data.entrySet()) {
+				if(e.getValue() instanceof String) preStmnt.setString(i,(String) e.getValue());
+				else if(e.getValue() instanceof Integer)preStmnt.setInt(i,(Integer) e.getValue());
+				i++;
+			}
+			id = db.execUpdate(preStmnt);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			log(TAG, "An error was detected while adding " + msg + " : " + getDataValue(data));
 			e.printStackTrace();
-		}
+		} return id;
 	}
 	
-	public void truncateDB() throws SQLException {
-		String sql = "TRUNCATE smsFaq.*;";
-		preStmnt = (PreparedStatement) db.getConnection().prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-		db.execUpdate(preStmnt);
-	}
-	
-	public int addQuestion(String q) throws SQLException {
-		String sql = "INSERT INTO questions (question) values (?);";
-		preStmnt = (PreparedStatement) db.getConnection().prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-		preStmnt.setString(1,q);
-		int id = db.execUpdate(preStmnt);
-		return id;
-	}
-	
-	public int addAnswer(String a) throws SQLException {
-		String sql = "INSERT INTO answers (answer) values (?);";
-		preStmnt = (PreparedStatement) db.getConnection().prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-		preStmnt.setString(1,a);
-		int id = db.execUpdate(preStmnt);
-		return id;
-	}
-	
-	public int addTerm(String t) throws SQLException {
-		String sql = "INSERT INTO terms (term) values (?);";
-		preStmnt = (PreparedStatement) db.getConnection().prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-		preStmnt.setString(1,t);
-		int id = db.execUpdate(preStmnt);
-		return id;
-	}
-	
-	public int addQuestionTerm(int t, int q) throws SQLException {
-		String sql = "INSERT INTO questionsterms (idTerm,idQuestion) values (?,?);";
-		preStmnt = (PreparedStatement) db.getConnection().prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-		preStmnt.setInt(1,t);
-		preStmnt.setInt(2,q);
-		int id = db.execUpdate(preStmnt);
-		return id;
-	}
-	
-	public int addQuestionAnwser(int q, int a) throws SQLException {
-		String sql = "INSERT INTO questionsanswers (idQuestion,idAnswer) values (?,?);";
-		preStmnt = (PreparedStatement) db.getConnection().prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-		preStmnt.setInt(1,q);
-		preStmnt.setInt(2,a);
-		int id = db.execUpdate(preStmnt);
-		return id;
-	}
-	
-	public boolean isTermExists(String t) throws SQLException {
-		String sql = "SELECT * FROM terms WHERE term=?;";
-		preStmnt = (PreparedStatement) db.getConnection().prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-		preStmnt.setString(1,t);
-		rs = db.execQuery(preStmnt);
-		boolean b = rs.next();
-		rs.close();
-		return b;
-	}
-	
-	public boolean isQuestionExists(String q) throws SQLException {
-		String sql = "SELECT * FROM questions WHERE question=?;";
-		preStmnt = (PreparedStatement) db.getConnection().prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-		preStmnt.setString(1,q);
-		rs = db.execQuery(preStmnt);
-		boolean b = rs.next();
-		rs.close();
-		return b;
-	}
-	
-	public boolean isAnswerExists(String a) throws SQLException {
-		String sql = "SELECT * FROM answers WHERE answer=?;";
-		preStmnt = (PreparedStatement) db.getConnection().prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-		preStmnt.setString(1,a);
-		rs = db.execQuery(preStmnt);
-		boolean b = rs.next();
-		rs.close();
-		return b;
+	/**
+	 * Check if something exists in the database
+	 * @param tableName : the table name
+	 * @param field : the field to check
+	 * @param value : the value to compare
+	 * @param msg : the message in case of an error is detected
+	 * @return TRUE if field(value) exists, FALSE else
+	 */
+	public boolean isSomethingExists(String tableName, String field, String value, String msg) {
+		String sql = "SELECT * FROM " + tableName + " WHERE " + field + "=?;";
+		boolean b = false;
+		try {
+			preStmnt = (PreparedStatement) db.getConnection().prepareStatement(sql);
+			preStmnt.setString(1,value);
+			rs = db.execQuery(preStmnt);
+			b = rs.next();
+			rs.close();
+		} catch (SQLException e) {
+			log(TAG, "An error was detected while verifying if a " + msg + " exists : " + value);
+			e.printStackTrace();
+		} return b;
 	}
 
+	
+	public List<Map.Entry<Integer, String>> getAllSomething(String tableName, String fn1, String fn2) {
+		String sql = "SELECT * FROM " + tableName + ";";
+		List<Map.Entry<Integer, String>> L = new ArrayList<Map.Entry<Integer, String>>();
+		try {
+			preStmnt = (PreparedStatement) db.getConnection().prepareStatement(sql);
+			rs = db.execQuery(preStmnt);
+			AbstractMap.SimpleEntry<Integer, String> tuple;
+			while(rs.next()) {
+				tuple = new AbstractMap.SimpleEntry<Integer, String>(rs.getInt(fn1), rs.getString(fn2));
+				L.add(tuple);
+			}
+			rs.close();
+		} catch (SQLException e) {
+			log(TAG, "An error was detected while getting " + tableName + " list");
+			e.printStackTrace();
+		} return L;
+	}
 }
