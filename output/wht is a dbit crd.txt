@@ -1,0 +1,126 @@
+***************************************************
+******************* WITHOUT IDF *******************
+***************************************************
+Main : ***** KOTHARI *****
+NaiveAlgo : Best question is finding...
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+NaiveAlgo : crd
+NaiveAlgo : card -> w = 0.75 ; lcsRatio = 0.75 ; editDistance = 1.0
+NaiveAlgo : cord -> w = 0.75 ; lcsRatio = 0.75 ; editDistance = 1.0
+NaiveAlgo : cured -> w = 0.6 ; lcsRatio = 0.6 ; editDistance = 1.0
+NaiveAlgo : car -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : csd -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : is
+NaiveAlgo : is -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : issue -> w = 0.4 ; lcsRatio = 0.4 ; editDistance = 1.0
+NaiveAlgo : in -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : if -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : it -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : wht
+NaiveAlgo : what -> w = 0.75 ; lcsRatio = 0.75 ; editDistance = 1.0
+NaiveAlgo : why -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : who -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : wet -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : when -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : a
+NaiveAlgo : a -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : aa -> w = 0.5 ; lcsRatio = 0.5 ; editDistance = 1.0
+NaiveAlgo : at -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : an -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : as -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : dbit
+NaiveAlgo : debit -> w = 0.8 ; lcsRatio = 0.8 ; editDistance = 1.0
+NaiveAlgo : diet -> w = 0.375 ; lcsRatio = 0.75 ; editDistance = 2.0
+NaiveAlgo : debits -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : debited -> w = 0.286 ; lcsRatio = 0.571 ; editDistance = 2.0
+NaiveAlgo : date -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : 0 : what is a debit card? -> 4.3
+NaiveAlgo : 1 : can a fresh debit card issued in lieu of lost/damaged card and what is the amount to be charged? -> 4.3
+NaiveAlgo : 2 : what is the validity of pnb debit card? -> 3.3
+NaiveAlgo : 3 : what is a authorized branch of d.p? -> 3.0833333333333335
+NaiveAlgo : 4 : how can i get a debit card? -> 3.05
+Main : ***** SHIVHRE *****
+ShivhreAlgo : Best question is finding...
+ShivhreAlgo : crd
+ShivhreAlgo : card -> w = 0.643 ; lcsRatio = 0.75 ; smRatio = 0.857
+ShivhreAlgo : cord -> w = 0.643 ; lcsRatio = 0.75 ; smRatio = 0.857
+ShivhreAlgo : cured -> w = 0.45 ; lcsRatio = 0.6 ; smRatio = 0.75
+ShivhreAlgo : cards -> w = 0.225 ; lcsRatio = 0.6 ; smRatio = 0.75
+ShivhreAlgo : car -> w = 0.222 ; lcsRatio = 0.667 ; smRatio = 0.667
+ShivhreAlgo : dbit
+ShivhreAlgo : debit -> w = 0.45 ; lcsRatio = 0.6 ; smRatio = 0.75
+ShivhreAlgo : debits -> w = 0.167 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : date -> w = 0.143 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : diet -> w = 0.143 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : dust -> w = 0.143 ; lcsRatio = 0.5 ; smRatio = 0.571
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+ShivhreAlgo : 0 : what is a debit card? -> 3.997
+ShivhreAlgo : 1 : can a fresh debit card issued in lieu of lost/damaged card and what is the amount to be charged? -> 3.997
+ShivhreAlgo : 2 : what is the validity of pnb debit card? -> 3.022
+ShivhreAlgo : 3 : what is the difference between a cardiologist and cardiothoracic surgeon? -> 2.706
+ShivhreAlgo : 4 : what is the caregiver' role during the later stages of a dementia? -> 2.7
+***************************************************
+******************* WITH IDF **********************
+***************************************************
+Main : ***** KOTHARI *****
+NaiveAlgo : Best question is finding...
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+NaiveAlgo : crd
+NaiveAlgo : cord -> w = 4.5 ; lcsRatio = 0.75 ; editDistance = 1.0
+NaiveAlgo : cured -> w = 3.6 ; lcsRatio = 0.6 ; editDistance = 1.0
+NaiveAlgo : card -> w = 2.25 ; lcsRatio = 0.75 ; editDistance = 1.0
+NaiveAlgo : car -> w = 1.667 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : csd -> w = 1.667 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : is
+NaiveAlgo : issue -> w = 2.0 ; lcsRatio = 0.4 ; editDistance = 1.0
+NaiveAlgo : isin -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : id -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : is -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : issued -> w = 1.0 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : wht
+NaiveAlgo : wet -> w = 1.667 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : wait -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : want -> w = 1.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : without -> w = 1.071 ; lcsRatio = 0.429 ; editDistance = 2.0
+NaiveAlgo : why -> w = 1.0 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : a
+NaiveAlgo : aa -> w = 3.0 ; lcsRatio = 0.5 ; editDistance = 1.0
+NaiveAlgo : ac -> w = 1.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : a -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : as -> w = 1.0 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : add -> w = 0.833 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : dbit
+NaiveAlgo : debit -> w = 2.4 ; lcsRatio = 0.8 ; editDistance = 1.0
+NaiveAlgo : debits -> w = 2.0 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : diet -> w = 1.5 ; lcsRatio = 0.75 ; editDistance = 2.0
+NaiveAlgo : dust -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : debited -> w = 1.429 ; lcsRatio = 0.571 ; editDistance = 2.0
+NaiveAlgo : 0 : what is a debit card? -> 7.4
+NaiveAlgo : 1 : can a fresh debit card issued in lieu of lost/damaged card and what is the amount to be charged? -> 7.4
+NaiveAlgo : 2 : what is the validity of pnb debit card? -> 6.4
+NaiveAlgo : 3 : should i ask my doctor to preserve my baby’s umbilical cord once she is born? -> 6.388888888888889
+NaiveAlgo : 4 : how can i get a debit card? -> 6.15
+Main : ***** SHIVHRE *****
+ShivhreAlgo : Best question is finding...
+ShivhreAlgo : crd
+ShivhreAlgo : cord -> w = 3.857 ; lcsRatio = 0.75 ; smRatio = 0.857
+ShivhreAlgo : cured -> w = 2.7 ; lcsRatio = 0.6 ; smRatio = 0.75
+ShivhreAlgo : card -> w = 1.929 ; lcsRatio = 0.75 ; smRatio = 0.857
+ShivhreAlgo : cards -> w = 1.125 ; lcsRatio = 0.6 ; smRatio = 0.75
+ShivhreAlgo : car -> w = 1.111 ; lcsRatio = 0.667 ; smRatio = 0.667
+ShivhreAlgo : dbit
+ShivhreAlgo : debit -> w = 1.35 ; lcsRatio = 0.6 ; smRatio = 0.75
+ShivhreAlgo : debits -> w = 1.0 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : dust -> w = 0.857 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : date -> w = 0.714 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : debited -> w = 0.643 ; lcsRatio = 0.429 ; smRatio = 0.6
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+ShivhreAlgo : 0 : what is a debit card? -> 6.705
+ShivhreAlgo : 1 : can a fresh debit card issued in lieu of lost/damaged card and what is the amount to be charged? -> 6.705
+ShivhreAlgo : 2 : what is the validity of pnb debit card? -> 5.78
+ShivhreAlgo : 3 : should i ask  doctor to preserve  baby’ umbilical cord once she is born? -> 5.506
+ShivhreAlgo : 4 :  debit card works successfully on pnb atms but not on other bank’ atms. -> 5.31

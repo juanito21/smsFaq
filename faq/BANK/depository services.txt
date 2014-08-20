@@ -1,0 +1,139 @@
+*What is a Depository?
+Depository is an organization where the securities of a shareholder are held in the electronic form. This is done at the request of the shareholder through the medium of a Depository Participant (DP). A depository is similar to a Bank. If an Investor wants to utilize the services offered by a depository, he/she has to open an account with the depository through a DP.
+
+*What is a Depository Participant? 
+A DP is your representative in the depository system and is similar to your bank branch. Your DP will maintain your securities account balances and intimate to you the status of your holdings from time to time. According to SEBI guidelines, financial institutions, banks, custodians, stock brokers etc., can become depository participants. PNB is a registered DP with National Securities Depository Limited (NSDL).
+
+*What are benefits of opening a demat a/c?
+The benefits of participation in a depository are:
+Quick transfer of securities
+No stamp duty on transfer of securities
+Elimination of risks associated with physical certificates such as bad delivery, fake securities, etc
+Reduction in paperwork involved in transfer of securities
+Reduction in transaction cost
+Nomination facility
+Change in address recorded with DP gets registered electronically with all companies in which investor holds securities eliminating the need to correspond with each of them separately
+Holding investments in equity, debt instruments and Government securities in a single account
+Automatic credits into demat account, of shares, arising out of split/consolidation/merger etc
+
+*What is a authorized branch of D.P? 
+For extending the benefits of depository services to our clients, a number of braches are authorized to maintain your securities account. They are dealing with a centralized Depository participant (PNB). 
+
+*Why should an Investor prefer to buy shares in the depository mode? 
+When you buy shares in the depository mode you will become the owner of those shares in the depository within a day of the settlement being completed. You will not have to apply to the Company for registering the shares in your name. Thus, there will be no possibility of loss or theft when the share certificates are posted to the company. You will have no fear that any fake or stolen shares may have been delivered to you. 
+
+*What is dematerialisation?
+Dematerialisation is a process by which the physical certificates of an investor are taken back by the Company / Registrar and actually destroyed and an equivalent number of securities are credited in the electronic holdings of that investor. This is done at the request of the investor. An investor will have to first open an demat account with a DP and then request for the dematerialisation of his certificates through the DP so that the dematerialised holdings can be credited into that account. 
+
+*Can my electronic holdings be converted back into certificates?
+Yes. If you wish to get back your securities in the physical form all you have to do is to request the DP for the Rematerialisation of the same. Rematerialisation is the term used for converting electronic holdings back into certificates. The authorized branch will forward your request to NSDL through our DP after verifying that you have the necessary security balances. NSDL in turn will intimate the registrar who will print the certificates and dispatch the same to you.
+
+*How will an Investor know that his DP has updated his account after each transaction? 
+Just like a bank branch, the authorized branch will give you a statement of account. The statement of account will be dispatched to you periodically by the DP. 
+
+*What if there are any discrepancies in the statement ?
+In case of any discrepancy in the statement of account, you can contact the DP. If the discrepancy cannot be resolved at the DP level an investor may approach NSDL for clarification.
+
+*What happens if I lose my account statement?
+Simple, inform the authorized branch and obtain a duplicate account statement . Your statement cannot be used by anybody else for trading in your account.
+
+*Is an investor restricted from having account with only one DP? 
+There are absolutely no restrictions to the number of DPs you can open accounts with. 
+
+*Does an investor have to keep any minimum balance of securities in his client account? 
+No, the depository has not prescribed any minimum balance. In fact, you can even have zero balance in your account. 
+
+*What security do I have if the only proof of my holdings in the depository is merely a piece of paper indicating my account balance? 
+When you open an account with an authorized branch, you sign an agreement with the DP in which the DP indemnifies you for any misuse of your holdings. The depository will also ensure that the interests of the investors are protected so your grievances, if any, against the DP will be resolved by the depository.
+
+*Is it possible for me to get the securities allotted to me in public offerings directly in the electronic form? 
+Definitely, in fact the public issue application form itself contains a provision for you to indicate the manner in which you want the securities to be allotted to you. All you have to do is to mention your client account number and the name of the DP and any allotment due to you will be credited into that account.
+
+*Who will give me the benefits arising out of my holdings, say a bonus or dividend? 
+When any corporate event such as rights, bonus or dividend is announced for a particular security, the depository will give all the details of the clients having electronic holdings of that security as of record date/book closure to the registrar. The registrar will then calculate the corporate benefits due to all the shareholders. The disbursement of cash benefits such as dividend/interest will be done by the registrar whereas the distribution of securities entitlements will be done by the depository based on the information provided by the registrar. 
+
+*Do I have any option for the manner in which I wish to receive my corporate benefits?
+A In case of those corporate events where you can exercise your option such as rights issue or optional conversion of debentures to shares, you do have a choice of either physical or electronic
+
+
+*Can an investor dematerialise any share certificate?
+The investor can dematerialise only those certificates that are already registered in his name and belong to the list of securities admitted for dematerialisation at NSDL. Shares held in street name (market deliveries) cannot be dematerialised.
+
+*Is a transfer deed required for dematerialising certificates? 
+No. The certificates have to be accompanied by a Demat Request Form (DRF) which can be obtained from the authorized branch and there is no need for a transfer deed.
+
+*Can an investor dematerialise shares, which are pledged with a bank, which is a DP as well?
+The investor can, with the permission of the bank.
+
+*Do dematerialised shares have distinctive/ certificate numbers? 
+No. Dematerialised shares do not have any distinctive or certificate numbers. These shares are fungible - which means that 100 shares of a security are the same as any other 100 shares of that security.
+
+*Can odd lot shares be dematerialised? 
+Yes. Odd lot share certificates can also be dematerialised. 
+
+*Is dematerialisation compulsory?
+No. According to the Depositories Act, 1996, an investor has the option to hold shares either in physical or in dematerialised form. 
+
+*Is it compulsory to mention the ISIN number of the company while filling up the Demat Request form?
+Yes, the ISIN name and number should be mentioned. This, to a certain extent, ensures that the security mentioned in the Demat Request Form is the same as the one the client intends to dematerialise. However, the client need not remember cryptic numbers and can take the help of his DP in filling these forms, which we will gladly do it for him.
+
+
+
+*Does NSDL keep blank share certificates of companies? 
+During a Rematerialisation process, the request goes from the DP to the R&T agent via NSDL. The R&T Agent, after processing the request, will print and despatch the share certificate directly to the investor. In this process, NSDL does not directly handle certificates. 
+
+*What should the investor do if his name has been wrongly spelt on the certificates given to him after a remat? 
+During a remat the instruction from the investor travels to the R&T agent from the DP via NSDL. The R&T agent processes it and sends the certificate, with the name printed as it appears in the beneficiary account, to the investor directly. Despite this, if the name is mis-spelled, then the investor can send it for rectification to the R&T agent along with the relevant documents. 
+
+*Since depository is the registered holder in company's books, will a remat be a case of transfer from Depository to investor and a stamp duty charged on it? 
+No. Transfer of registered ownership of securities from a person to a depository or from a depository to a beneficial owner shall not be liable to stamp duty related to transfer. 
+
+*Can odd lot securities be rematerialised? 
+The investor has the option of rematerialising his total holdings or part of it. In addition to this, he has the option to get the certificates in market lot or jumbo lot. In view of this, beneficiary owners can remat their securities even if it is an odd lot. 
+
+*Can locked-in securities be pledged? 
+Yes. However they cannot be invoked before the lock-in release date. 
+
+*Who will receive corporate action benefits on the pledged securities? 
+Even after the securities are pledged, the pledgor continues to remain the beneficiary holder of those securities and will receive benefits of a corporate action, if any. 
+
+*How will the investor receive dividend/interest, if any, on the securities he is holding? 
+NSDL gives the issuer/ R&T agent of the security for which dividend has been announced a list of beneficial owners as of the record/ book closure date. Based on this list provided by NSDL, the issuer/ R&T agent directly forwards dividend payment to the investor, as in case of the physical environment. Presently, NSDL does not handle cash corporate actions
+. 
+*If an investor has holdings in dematerialised form will the bonus/ rights issue against this be in the same form?
+The bonus/rights issue against holding in dematerialized form can be either in the physical/dematerialised form as per the choice of the investor. If no choice is given, then by default the securities will be issued in the form they are currently held. Thus if a shareholder holds some shares in physical form and some others in demat, then bonus/rights shares will be received in both the forms in proportion to the holdings in each form. 
+
+*If an investor has holdings in physical form, can the bonus/ rights issue against this be in the dematerialised form?
+Yes, if the investor chooses to receive this non cash corporate action in dematerialised form, they will be credited to the depository account. Please note that this facility will be available only in case of those companies linked up with NSDL.
+
+*Will the rights issue form be sent by the depository or issuer?
+As in the physical segment the issuer/ their R&T agent will mail the rights form directly to all investors including those in the electronic segment.
+
+*How will the investor confirm that he has received his bonus/ rights entitlement? 
+The statement of holding and transaction statement sent by the investors DP, will show the bonus/ rights credit into his account. This report is sent to the investor on monthly basis. In addition, an allotment advise will be send by the issuer/ their R&T agent for bonus/ rights entitlement.
+
+
+*Does the applicant get preference in allotment if he applies in dematerialised form? 
+The basis of allotment is independent of the form (physical/ dematerialised) in which securities are applied. Thus the applicant won't get preference in allotment if he applies for securities in dematerialised form. 
+
+*If the applicant is allotted securities in dematerialised form, when will he get electronic credit in his account? 
+A If securities are allotted in the dematerialised form, these would be credited to applicants account any day between allotment date and listing date, at the discretion of the company. 
+
+*How will the applicant come to know that his application for public issue in electronic form has been accepted? 
+The issuer company/ their R&T agent will forward the applicant the allotment advise giving the number of shares allotted in dematerialised form. 
+
+
+*How will an investor know that the DP has updated his account after each transaction? 
+At least once a month, the DP will give the investor a statement of holdings and a transaction statement, which details out the current balances and the various transactions done through that depository account. In addition, NSDL forwards a statement of holding every month to randomly selected list of beneficial owners, which acts as a counter check. 
+
+*What is to be done if there are any discrepancies in the statement of holdings? 
+In case of any discrepancy in the statement of holdings, the investor can contact his authorized branch. If the discrepancy cannot be resolved at this level, the investor may approach NSDL. NSDL also sends out statement of holdings to clients of DPs picked at random. In case the balance in the investors account as indicated by his authorized branch does not tally with the balance as indicated by NSDL, the investor may contact his DP/ NSDL for clarification. 
+
+*What security does an investor have if only proof of his holdings in the depository is merely a piece of paper indicating his account balance? 
+There are various checks and balances in the depository design to ensure safety of the investor holdings. 
+
+*What happens when a DP goes bankrupt? 
+In all such cases there is absolutely no need for an investor to be unduly concerned as enough provisions are there for the investor to transfer his account from the defunct DP to another DP or get the securities rematerialised. There cannot be any lien on the account holder’s assets by creditors belonging to the DP or NSDL and therefore the account holder’s assets are absolutely safe. There is no credit risk in case of a defunct NSDL or its DPs. 
+
+*How confidential are the Depository Account details? 
+There are strict systems and procedures established to protect the confidentiality of investor information at the depository to ensure that these are available to only authorised persons.

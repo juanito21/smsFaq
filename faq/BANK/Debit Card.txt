@@ -1,0 +1,91 @@
+*What is a Debit Card?
+A Debit Card provides access to ATMs for cash withdrawals, balance enquiries and mini statement, on-line electronic payment for purchases from your savings / current (individual) accounts. You can also transfer funds through ATM to your own / other PNB accounts and also transfer / receive funds to / from any MasterCard or Maestro card holder (Debit or Credit card) of other selected banks.
+
+
+*How many type of Debit cards, Punjab National Bank is issuing?
+At present following types of Debit card Bank is issuing:
+i. PIN based Debit Card (Maestro card)
+ii. Signature based Classic Debit card (Master card)
+iii. Signature based Gold Debit card with photo (Master card)
+iv. PNB Platinum Debit Card
+v. Mitra ATM Card
+
+ 
+*What is PIN (Personal Identification Number)?
+PIN is a unique 4 digit number that allows you to access your account through Debit Card at ATMs.
+For safety, your PIN should always be kept completely confidential and your card too should remain in your possession and not to be handed over to anyone else. Neither write PIN on the Back of the Debit card nor Keep Debit Card along with PIN.
+
+*How can I get a Debit Card?
+Debit card can be obtained from any CBS branch of PNB (irrespective of your account maintaining branch) by filling a Debit Card application form. In case of Non-Personalized card (without name) the card would be issued instantly. In case of Personalized card (with name) the card would be issued in *-* working days. You can also get a Debit Card through PNB * Hour Call Centre by making a call at * * * (Toll free) in which case the deactivated card would be delivered at your address directly within *-* working days. However you can send the duly filled application from along with proof of identity to HO for activation of the card.
+
+*I have not received my personalized card even after 44 days of giving the request at the branch / call centre.
+You should contact the Branch / call centre to enquire about the status of your request. In case you do not get a satisfactory reply, please contact Debit Card Cell at * – * or through email at debitcard@pnb.co.in
+
+*I have received the Debit Card but the PIN is not legible .
+You should contact the card issuing branch and request for a duplicate PIN. You can collect the Duplicate PIN from the branch after * working days.
+
+*Where my Debit card can be used?
+Debit Card can be used throughout the world on all the ATMs having Maestro/Cirrus logo.
+
+*How does the Debit Card work?
+Insert your Debit card in ATM and follow the instructions displayed on the screen. On POS you need to swipe the card and sign the Bill after verifying the amount.
+
+*What is the validity of PNB Debit Card?
+PIN based Maestro Debit card has no expiry date. However Signature based Debit Card is valid for years from the date of issue.
+
+
+*Is there any Fee for the issuance of Debit card?
+PNB Debit Card is issued free of cost. However a nominal fee of Rs.  per Year will be levied after one year of Card issuance every year.
+
+*Is there any charge levied for use of the card for Cash withdrawal?
+No charge is levied for use of the card for cash withdrawal at PNB ATMs while Rs. is levied at other bank sharing ATMs under MITR, NFS, SBI Group, EBL and the ATMs with Maestro/Cirrus Logo upto *st March * after which it will be free of charge. Balance Enquiry is free at all banks’ ATMs.
+
+*Can a fresh Debit card issued in lieu of lost/damaged card and what is the amount to be charged?
+Yes. Rs. */- for lost card while free of charge for replacement of damaged card.
+
+*If lost card is subsequently found/traced and restored to cardholder, can it be reactivated?
+card once hot listed / blocked cannot be re-activated. You can make a request for a fresh card.
+
+*What is Mini Statement?
+It is a statement of account showing last transactions made in the account through PNB ATM.
+
+*How should I maintain the secrecy of PIN?
+If at any time you feel that the PIN has been inadvertently or otherwise divulged to any one you should change the same through any PNB ATM immediately.
+
+*How often can I change the PIN?
+PIN can be changed any number of times.
+
+*How many accounts maximum can be linked to my Debit card?
+Maximum of * accounts held in the same name and same capacity can be linked to a Debit card.
+
+*Does Bank bear any liability for unauthorized use of the Card?
+No. The responsibility is solely vested with the cardholder.
+
+*What is CVV No.?
+On the back of Debit card (Classic & Gold) there are digits out of which the last digits are the card CVV no. This no. can be used only for ecommerce transaction.
+Please note that this CVV no is an important value in the card as any person can misuse the card over the internet if he is aware of this value besides other information (like card no., name and Expiry date) without having actual possession of the card. You should remember the CVV number mentioned on the reverse of the Debit card and hide this number by blackening it out to avoid its misuse.
+
+*What is Add-On card facility?
+Any card holder can get more Debit cards in the name of his / her spouse and dependent parents and children not below  years old. Debit card will be linked to the cardholder’s main account.
+
+*My Debit card doesn’t work successfully on ATMs.
+Debit Card does not work successfully on ATMs due to any of the following reasons;
+You may be using the card before the expiry of  working hours of receipt of the card from the branch, the time required for activation of the card.
+In case you have received the card through the call centre, you have not sent the required documents (application form and proof of identity) to HO.
+You may not have swiped the card properly. 
+The quality of the magnetic stripe of your card has been damaged / deteriorated due to which it is not accepted by any ATM where the card reader may be weak. In such a case you may try at another nearby ATM and if still does not work, get it replaced by a new one from PNB branch free of cost.
+Your account may be inoperative or frozen at branch level due to some reason. Please contact your branch to know the account status.
+You may be using wrong PIN.
+You might have selected the wrong account type i.e. savings instead of current or vice-versa.
+Connectivity from the ATM to your branch has failed. In such case please try after some time or use another ATM nearby.
+
+*My Debit card works successfully on PNB ATMs but not on other Bank’s ATMs.
+The problem may be due to connectivity failure at other bank ATM to PNB. Please try after some time when connectivity is restored. Alternately you may try another ATM nearby.
+
+*My Debit card works successfully on ATMs but not at POS terminals.
+Debit card does not work successfully on POS terminals due to any of the following reasons;
+Connectivity failure at that particular time.
+
+
+*My card doesn’t work on few ATMs of PNB.
+The quality of the magnetic stripe of your card has been damaged / deteriorated due to which it is not accepted by few ATMs where the card reader may also be weak. Try at some other nearby ATM. In such case you may get the card replaced by a new one from PNB branch free of cost and lodge a complaint in the branch for replacement of card reader of ATM

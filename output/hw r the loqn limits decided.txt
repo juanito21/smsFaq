@@ -1,0 +1,150 @@
+***************************************************
+******************* WITHOUT IDF *******************
+***************************************************
+Main : ***** KOTHARI *****
+NaiveAlgo : Best question is finding...
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+NaiveAlgo : decided
+NaiveAlgo : decided -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : deceased -> w = 0.313 ; lcsRatio = 0.625 ; editDistance = 2.0
+NaiveAlgo : debited -> w = 0.238 ; lcsRatio = 0.714 ; editDistance = 3.0
+NaiveAlgo : detected -> w = 0.208 ; lcsRatio = 0.625 ; editDistance = 3.0
+NaiveAlgo : detailed -> w = 0.208 ; lcsRatio = 0.625 ; editDistance = 3.0
+NaiveAlgo : limits
+NaiveAlgo : limits -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : latest -> w = 0.167 ; lcsRatio = 0.5 ; editDistance = 3.0
+NaiveAlgo : liability -> w = 0.111 ; lcsRatio = 0.444 ; editDistance = 4.0
+NaiveAlgo : lithium -> w = 0.107 ; lcsRatio = 0.429 ; editDistance = 4.0
+NaiveAlgo : leukemia -> w = 0.094 ; lcsRatio = 0.375 ; editDistance = 4.0
+NaiveAlgo : r
+NaiveAlgo : re -> w = 0.5 ; lcsRatio = 0.5 ; editDistance = 1.0
+NaiveAlgo : roi -> w = 0.333 ; lcsRatio = 0.333 ; editDistance = 1.0
+NaiveAlgo : rac -> w = 0.167 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : ray -> w = 0.167 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : run -> w = 0.167 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : hw
+NaiveAlgo : how -> w = 0.667 ; lcsRatio = 0.667 ; editDistance = 1.0
+NaiveAlgo : he -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : his -> w = 0.167 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : has -> w = 0.167 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : him -> w = 0.167 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : loqn
+NaiveAlgo : loan -> w = 0.375 ; lcsRatio = 0.75 ; editDistance = 2.0
+NaiveAlgo : login -> w = 0.3 ; lcsRatio = 0.6 ; editDistance = 2.0
+NaiveAlgo : long -> w = 0.25 ; lcsRatio = 0.75 ; editDistance = 3.0
+NaiveAlgo : loans -> w = 0.2 ; lcsRatio = 0.6 ; editDistance = 3.0
+NaiveAlgo : lost -> w = 0.167 ; lcsRatio = 0.5 ; editDistance = 3.0
+NaiveAlgo : the
+NaiveAlgo : the -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : teeth -> w = 0.4 ; lcsRatio = 0.4 ; editDistance = 1.0
+NaiveAlgo : they -> w = 0.375 ; lcsRatio = 0.75 ; editDistance = 2.0
+NaiveAlgo : then -> w = 0.375 ; lcsRatio = 0.75 ; editDistance = 2.0
+NaiveAlgo : ten -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : 0 : how are the loan limits decided? -> 4.041666666666666
+NaiveAlgo : 1 : how do you work out the eligible limit? -> 2.4
+NaiveAlgo : 2 : how many days maximum would the bank require to re-credit the account for such wrong debits? -> 2.2916666666666665
+NaiveAlgo : 3 : how long does the carrier phase of campylobacteriosis last? -> 2.2499999999999996
+NaiveAlgo : 4 : how the loan is disbursed? -> 2.1930555555555555
+Main : ***** SHIVHRE *****
+ShivhreAlgo : Best question is finding...
+ShivhreAlgo : decided
+ShivhreAlgo : decided -> w = 0.416 ; lcsRatio = 0.571 ; smRatio = 0.727
+ShivhreAlgo : deceased -> w = 0.094 ; lcsRatio = 0.375 ; smRatio = 0.5
+ShivhreAlgo : deed -> w = 0.083 ; lcsRatio = 0.5 ; smRatio = 0.5
+ShivhreAlgo : duct -> w = 0.083 ; lcsRatio = 0.5 ; smRatio = 0.5
+ShivhreAlgo : dividend -> w = 0.063 ; lcsRatio = 0.375 ; smRatio = 0.5
+ShivhreAlgo : limits
+ShivhreAlgo : limits -> w = 0.533 ; lcsRatio = 0.667 ; smRatio = 0.8
+ShivhreAlgo : limit -> w = 0.2 ; lcsRatio = 0.6 ; smRatio = 0.667
+ShivhreAlgo : lumps -> w = 0.2 ; lcsRatio = 0.6 ; smRatio = 0.667
+ShivhreAlgo : latest -> w = 0.1 ; lcsRatio = 0.5 ; smRatio = 0.6
+ShivhreAlgo : lost -> w = 0.083 ; lcsRatio = 0.5 ; smRatio = 0.5
+ShivhreAlgo : loqn
+ShivhreAlgo : loan -> w = 0.143 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : login -> w = 0.1 ; lcsRatio = 0.4 ; smRatio = 0.5
+ShivhreAlgo : long -> w = 0.095 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : land -> w = 0.095 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : lung -> w = 0.095 ; lcsRatio = 0.5 ; smRatio = 0.571
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+ShivhreAlgo : 0 : how are the loan limits decided? -> 3.981
+ShivhreAlgo : 1 : how do you work out the eligible limit? -> 1.996
+ShivhreAlgo : 2 : how the loan is disbursed? -> 1.904
+ShivhreAlgo : 3 : how will the investor receive dividend/interest, if any, on the securities he is holding? -> 1.837
+ShivhreAlgo : 4 : how long will the surgery of valve replacement take for aortic valve stenosis? -> 1.833
+***************************************************
+******************* WITH IDF **********************
+***************************************************
+Main : ***** KOTHARI *****
+NaiveAlgo : Best question is finding...
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+NaiveAlgo : decided
+NaiveAlgo : decided -> w = 6.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : deceased -> w = 1.875 ; lcsRatio = 0.625 ; editDistance = 2.0
+NaiveAlgo : detailed -> w = 1.25 ; lcsRatio = 0.625 ; editDistance = 3.0
+NaiveAlgo : debited -> w = 1.19 ; lcsRatio = 0.714 ; editDistance = 3.0
+NaiveAlgo : detected -> w = 1.042 ; lcsRatio = 0.625 ; editDistance = 3.0
+NaiveAlgo : limits
+NaiveAlgo : limits -> w = 6.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : latest -> w = 1.0 ; lcsRatio = 0.5 ; editDistance = 3.0
+NaiveAlgo : liability -> w = 0.667 ; lcsRatio = 0.444 ; editDistance = 4.0
+NaiveAlgo : lithium -> w = 0.643 ; lcsRatio = 0.429 ; editDistance = 4.0
+NaiveAlgo : linked -> w = 0.5 ; lcsRatio = 0.333 ; editDistance = 4.0
+NaiveAlgo : r
+NaiveAlgo : re -> w = 2.5 ; lcsRatio = 0.5 ; editDistance = 1.0
+NaiveAlgo : roi -> w = 1.667 ; lcsRatio = 0.333 ; editDistance = 1.0
+NaiveAlgo : rac -> w = 1.0 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : ray -> w = 0.833 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : run -> w = 0.833 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : hw
+NaiveAlgo : him -> w = 1.0 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : he -> w = 1.0 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : her -> w = 1.0 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : here -> w = 0.75 ; lcsRatio = 0.25 ; editDistance = 2.0
+NaiveAlgo : hope -> w = 0.75 ; lcsRatio = 0.25 ; editDistance = 2.0
+NaiveAlgo : loqn
+NaiveAlgo : login -> w = 1.8 ; lcsRatio = 0.6 ; editDistance = 2.0
+NaiveAlgo : land -> w = 1.0 ; lcsRatio = 0.5 ; editDistance = 3.0
+NaiveAlgo : loss -> w = 1.0 ; lcsRatio = 0.5 ; editDistance = 3.0
+NaiveAlgo : lens -> w = 1.0 ; lcsRatio = 0.5 ; editDistance = 3.0
+NaiveAlgo : lose -> w = 0.833 ; lcsRatio = 0.5 ; editDistance = 3.0
+NaiveAlgo : the
+NaiveAlgo : then -> w = 2.25 ; lcsRatio = 0.75 ; editDistance = 2.0
+NaiveAlgo : ten -> w = 2.0 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : teeth -> w = 2.0 ; lcsRatio = 0.4 ; editDistance = 1.0
+NaiveAlgo : they -> w = 1.875 ; lcsRatio = 0.75 ; editDistance = 2.0
+NaiveAlgo : tea -> w = 1.667 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : 0 : how are the loan limits decided? -> 13.416666666666666
+NaiveAlgo : 1 : how many days maximum would the bank require to re-credit the account for such wrong debits? -> 4.166666666666666
+NaiveAlgo : 2 :  is there any limit on the value of individual transactions in ecs debit? -> 3.7666666666666666
+NaiveAlgo : 3 : is there any minimum and maximum cash withdrawal limit per day? -> 3.7222222222222223
+NaiveAlgo : 4 : what happens if after preparation of chart my ticket remains in rac and i don't want to travel? -> 3.6984126984126986
+Main : ***** SHIVHRE *****
+ShivhreAlgo : Best question is finding...
+ShivhreAlgo : decided
+ShivhreAlgo : decided -> w = 2.494 ; lcsRatio = 0.571 ; smRatio = 0.727
+ShivhreAlgo : deceased -> w = 0.563 ; lcsRatio = 0.375 ; smRatio = 0.5
+ShivhreAlgo : deed -> w = 0.5 ; lcsRatio = 0.5 ; smRatio = 0.5
+ShivhreAlgo : disc -> w = 0.375 ; lcsRatio = 0.5 ; smRatio = 0.5
+ShivhreAlgo : duct -> w = 0.333 ; lcsRatio = 0.5 ; smRatio = 0.5
+ShivhreAlgo : limits
+ShivhreAlgo : limits -> w = 3.2 ; lcsRatio = 0.667 ; smRatio = 0.8
+ShivhreAlgo : lumps -> w = 1.2 ; lcsRatio = 0.6 ; smRatio = 0.667
+ShivhreAlgo : limit -> w = 0.8 ; lcsRatio = 0.6 ; smRatio = 0.667
+ShivhreAlgo : latest -> w = 0.6 ; lcsRatio = 0.5 ; smRatio = 0.6
+ShivhreAlgo : loss -> w = 0.5 ; lcsRatio = 0.5 ; smRatio = 0.5
+ShivhreAlgo : loqn
+ShivhreAlgo : login -> w = 0.6 ; lcsRatio = 0.4 ; smRatio = 0.5
+ShivhreAlgo : land -> w = 0.571 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : lens -> w = 0.571 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : lung -> w = 0.476 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : loan -> w = 0.286 ; lcsRatio = 0.5 ; smRatio = 0.571
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+ShivhreAlgo : 0 : how are the loan limits decided? -> 13.318
+ShivhreAlgo : 1 :  is there any limit on the value of individual transactions in ecs credit? -> 2.845
+ShivhreAlgo : 2 :  whether re-imbursement of fees is permitted in education loan scheme? -> 2.836
+ShivhreAlgo : 3 : is there any minimum and maximum cash withdrawal limit per day? -> 2.827
+ShivhreAlgo : 4 :  is there any limit on the value of individual transactions in ecs debit? -> 2.808

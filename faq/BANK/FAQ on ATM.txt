@@ -1,0 +1,50 @@
+*What is an Automated Teller Machine (ATM)?
+ Automated Teller Machine is a computerized machine that provides the customers of banks the facility of accessing their accounts for dispensing cash and to carry out other financial transactions without the need of actually visiting a bank branch.
+ 
+*What type of cards can be used at an ATM?
+The ATM cards/debit cards, credit cards and prepaid cards (that  permit cash withdrawal) can be used at ATMs for various transactions.
+
+*What are the services / facilities available at ATMs?
+ In addition to cash dispensing ATMs may have many services / facilities such as:   
+Account information
+  Regular bills payment
+ Purchase of Re-load Vouchers for Mobiles
+ Mini/Short Statement
+  Loan account enquiry etc.
+
+*How can one transact at an ATM? 
+For transacting at an ATM, the customer insert (swipe) their card in the ATM and enter their Personal Identification Number (PIN).
+
+*Can these cards be used at any bank ATM in the country?
+Yes. The cards issued by banks in India should be enabled for use at any bank ATM within India.  
+
+*What is a Personal Identification Number (PIN)?
+PIN is the numeric password for use at the ATM. The PIN is separately mailed / handed over to the customer by the bank while issuing the card. This PIN has to be reset to a new PIN by the customer. Most banks force the customers to change the PIN on the first use. The PIN number should not be written the card, card holder etc as in such cases the card can be misused if card is lost / stolen.
+
+*What should one do if he forgets PIN or the card is sucked in by the ATM?
+ The customer may contact the card issuing bank branch and apply for retrieval/issuance of a new card. This procedure is applicable even if the card is sucked in at another bank's ATM.
+
+
+*What should be done if the card is lost / stolen?
+ The customer may contact the card issuing bank immediately on noticing the loss so as to enable the bank to block such cards.
+
+*Is there any minimum and maximum cash withdrawal limit per day?
+ Yes, banks set limit for cash withdrawal by customers. The cash withdrawal limit for use at the ATM of the issuing bank is set by the bank during the issuance of the card. This limit is displayed at the respective ATM locations. For cash withdrawals at other bank ATMs, banks have decided to maintain a limit of Rs 10,000/- per transaction. This information is displayed at the ATM location.
+
+*Do banks levy any service charge for use of other bank ATMs?
+No charges are payable for using other banks' ATM for cash withdrawal and balance enquiry, as RBI has made it free under its "Free ATM access policy" since April 01, 2009. But banks can restrict the number of such free transactions to a maximum of five per month. For transactions beyond this minimum number of transaction, banks charge maximum of Rs 20/- per transaction.
+
+*What should be done in case during the cash withdrawal process, cash is not disbursed by the account gets debited for the amount?
+ The customer may lodge a complaint with the card issuing bank. This process is applicable even if the transaction was carried out at another banks ATM. 
+
+*How many days maximum would the bank require to re-credit the account for such wrong debits?
+ As per the RBI instructions, banks may re-credit such wrongly debited amounts within a maximum period of 12 working days. 
+
+*Are the customers eligible for compensation for delays beyond 12 working days?
+Yes. Effective from July 17, 2009, banks shall have to pay customers Rs 100/- per day for delays beyond 12 working days. This shall have to be credited to the account of the customer without any claim being made by the customer. 
+
+*In case the compensation is not credited as mandated, what recourse does the customer have?
+ For all such complaints customer may lodge a complaint with the local Banking Ombudsman if the bank does not respond. 
+ 
+
+ 

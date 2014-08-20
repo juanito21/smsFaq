@@ -1,0 +1,138 @@
+***************************************************
+******************* WITHOUT IDF *******************
+***************************************************
+Main : ***** KOTHARI *****
+NaiveAlgo : Best question is finding...
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+NaiveAlgo : personal
+NaiveAlgo : personal -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : peritoneal -> w = 0.35 ; lcsRatio = 0.7 ; editDistance = 2.0
+NaiveAlgo : presence -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : personalized -> w = 0.222 ; lcsRatio = 0.667 ; editDistance = 3.0
+NaiveAlgo : peritoneum -> w = 0.167 ; lcsRatio = 0.5 ; editDistance = 3.0
+NaiveAlgo : is
+NaiveAlgo : is -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : issue -> w = 0.4 ; lcsRatio = 0.4 ; editDistance = 1.0
+NaiveAlgo : in -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : if -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : it -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : numb
+NaiveAlgo : number -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : name -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : names -> w = 0.2 ; lcsRatio = 0.4 ; editDistance = 2.0
+NaiveAlgo : numbers -> w = 0.19 ; lcsRatio = 0.571 ; editDistance = 3.0
+NaiveAlgo : neuroma -> w = 0.143 ; lcsRatio = 0.429 ; editDistance = 3.0
+NaiveAlgo : ident
+NaiveAlgo : identity -> w = 0.313 ; lcsRatio = 0.625 ; editDistance = 2.0
+NaiveAlgo : initiate -> w = 0.188 ; lcsRatio = 0.375 ; editDistance = 2.0
+NaiveAlgo : iodide -> w = 0.167 ; lcsRatio = 0.5 ; editDistance = 3.0
+NaiveAlgo : intake -> w = 0.167 ; lcsRatio = 0.5 ; editDistance = 3.0
+NaiveAlgo : ideally -> w = 0.143 ; lcsRatio = 0.429 ; editDistance = 3.0
+NaiveAlgo : wht
+NaiveAlgo : what -> w = 0.75 ; lcsRatio = 0.75 ; editDistance = 1.0
+NaiveAlgo : why -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : who -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : wet -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : when -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : 0 : what is pin (personal identification number)? -> 3.2083333333333335
+NaiveAlgo : 1 : what is a personal identification number (pin)? -> 3.2083333333333335
+NaiveAlgo : 2 : what is the minimum & maximum loan amount one can avail under personal loan scheme to pensioners? -> 2.875
+NaiveAlgo : 3 : for what purpose, i can get personal loan sanctioned from pnb? -> 2.5
+NaiveAlgo : 4 : who is eligible to get personal loan to pensioners? -> 2.458333333333333
+Main : ***** SHIVHRE *****
+ShivhreAlgo : Best question is finding...
+ShivhreAlgo : personal
+ShivhreAlgo : personal -> w = 0.481 ; lcsRatio = 0.625 ; smRatio = 0.769
+ShivhreAlgo : person -> w = 0.242 ; lcsRatio = 0.667 ; smRatio = 0.727
+ShivhreAlgo : present -> w = 0.19 ; lcsRatio = 0.571 ; smRatio = 0.667
+ShivhreAlgo : persons -> w = 0.19 ; lcsRatio = 0.571 ; smRatio = 0.667
+ShivhreAlgo : presence -> w = 0.154 ; lcsRatio = 0.5 ; smRatio = 0.615
+ShivhreAlgo : numb
+ShivhreAlgo : number -> w = 0.167 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : name -> w = 0.143 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : names -> w = 0.1 ; lcsRatio = 0.4 ; smRatio = 0.5
+ShivhreAlgo : numbers -> w = 0.086 ; lcsRatio = 0.429 ; smRatio = 0.6
+ShivhreAlgo : norms -> w = 0.067 ; lcsRatio = 0.4 ; smRatio = 0.5
+ShivhreAlgo : ident
+ShivhreAlgo : donate -> w = 0.333 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : don -> w = 0.222 ; lcsRatio = 0.667 ; smRatio = 0.667
+ShivhreAlgo : dental -> w = 0.167 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : done -> w = 0.143 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : date -> w = 0.143 ; lcsRatio = 0.5 ; smRatio = 0.571
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+ShivhreAlgo : 0 : what is pin (personal identification number)? -> 2.976
+ShivhreAlgo : 1 : what is a personal identification number (pin)? -> 2.976
+ShivhreAlgo : 2 : what is the minimum & maximum loan amount one can avail under personal loan scheme to pensioners? -> 2.781
+ShivhreAlgo : 3 : who is eligible to get personal loan to pensioners? -> 2.305
+ShivhreAlgo : 4 : for what purpose, i can get personal loan sanctioned from pnb? -> 1.971
+***************************************************
+******************* WITH IDF **********************
+***************************************************
+Main : ***** KOTHARI *****
+NaiveAlgo : Best question is finding...
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+NaiveAlgo : personal
+NaiveAlgo : personal -> w = 4.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : peritoneal -> w = 1.75 ; lcsRatio = 0.7 ; editDistance = 2.0
+NaiveAlgo : personalized -> w = 1.333 ; lcsRatio = 0.667 ; editDistance = 3.0
+NaiveAlgo : presence -> w = 1.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : peritoneum -> w = 1.0 ; lcsRatio = 0.5 ; editDistance = 3.0
+NaiveAlgo : is
+NaiveAlgo : issue -> w = 2.0 ; lcsRatio = 0.4 ; editDistance = 1.0
+NaiveAlgo : isin -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : id -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : is -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : issued -> w = 1.0 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : numb
+NaiveAlgo : number -> w = 1.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : name -> w = 1.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : names -> w = 1.2 ; lcsRatio = 0.4 ; editDistance = 2.0
+NaiveAlgo : numbers -> w = 1.143 ; lcsRatio = 0.571 ; editDistance = 3.0
+NaiveAlgo : norms -> w = 0.8 ; lcsRatio = 0.4 ; editDistance = 3.0
+NaiveAlgo : ident
+NaiveAlgo : identity -> w = 1.875 ; lcsRatio = 0.625 ; editDistance = 2.0
+NaiveAlgo : iodide -> w = 1.0 ; lcsRatio = 0.5 ; editDistance = 3.0
+NaiveAlgo : intake -> w = 1.0 ; lcsRatio = 0.5 ; editDistance = 3.0
+NaiveAlgo : initiate -> w = 0.938 ; lcsRatio = 0.375 ; editDistance = 2.0
+NaiveAlgo : ideally -> w = 0.857 ; lcsRatio = 0.429 ; editDistance = 3.0
+NaiveAlgo : wht
+NaiveAlgo : wet -> w = 1.667 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : wait -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : want -> w = 1.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : without -> w = 1.071 ; lcsRatio = 0.429 ; editDistance = 2.0
+NaiveAlgo : why -> w = 1.0 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : 0 : what is pin (personal identification number)? -> 7.44047619047619
+NaiveAlgo : 1 : what is a personal identification number (pin)? -> 7.44047619047619
+NaiveAlgo : 2 : who is eligible to get personal loan to pensioners? -> 6.125
+NaiveAlgo : 3 : what is the minimum & maximum loan amount one can avail under personal loan scheme to pensioners? -> 5.875
+NaiveAlgo : 4 : for what purpose, i can get personal loan sanctioned from pnb? -> 5.5
+Main : ***** SHIVHRE *****
+ShivhreAlgo : Best question is finding...
+ShivhreAlgo : personal
+ShivhreAlgo : personal -> w = 1.923 ; lcsRatio = 0.625 ; smRatio = 0.769
+ShivhreAlgo : persons -> w = 1.143 ; lcsRatio = 0.571 ; smRatio = 0.667
+ShivhreAlgo : present -> w = 0.952 ; lcsRatio = 0.571 ; smRatio = 0.667
+ShivhreAlgo : presence -> w = 0.769 ; lcsRatio = 0.5 ; smRatio = 0.615
+ShivhreAlgo : person -> w = 0.727 ; lcsRatio = 0.667 ; smRatio = 0.727
+ShivhreAlgo : numb
+ShivhreAlgo : name -> w = 0.714 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : number -> w = 0.667 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : names -> w = 0.6 ; lcsRatio = 0.4 ; smRatio = 0.5
+ShivhreAlgo : numbers -> w = 0.514 ; lcsRatio = 0.429 ; smRatio = 0.6
+ShivhreAlgo : norms -> w = 0.4 ; lcsRatio = 0.4 ; smRatio = 0.5
+ShivhreAlgo : ident
+ShivhreAlgo : donate -> w = 1.667 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : don -> w = 1.111 ; lcsRatio = 0.667 ; smRatio = 0.667
+ShivhreAlgo : dental -> w = 1.0 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : dust -> w = 0.857 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : date -> w = 0.714 ; lcsRatio = 0.5 ; smRatio = 0.571
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+ShivhreAlgo : 0 : what is pin (personal identification number)? -> 6.976
+ShivhreAlgo : 1 : what is a personal identification number (pin)? -> 6.976
+ShivhreAlgo : 2 : what is the minimum & maximum loan amount one can avail under personal loan scheme to pensioners? -> 6.197
+ShivhreAlgo : 3 : who is eligible to get personal loan to pensioners? -> 5.831
+ShivhreAlgo : 4 : for what purpose, i can get personal loan sanctioned from pnb? -> 5.324

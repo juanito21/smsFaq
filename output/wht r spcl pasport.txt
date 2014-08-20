@@ -1,0 +1,67 @@
+*****************************
+**** WITH IDF************
+***********************
+
+
+Database : Loading driver...
+Database : Driver Loaded !
+Database : Connection etablishing...
+Database : Connection etablished !
+Main : ***** KOTHARI *****
+NaiveAlgo : Best question is finding...
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+NaiveAlgo : pasport
+NaiveAlgo : password -> w = 1.042 ; lcsRatio = 0.625 ; editDistance = 3.0 ; idf = 5.0
+NaiveAlgo : property -> w = 1.0 ; lcsRatio = 0.5 ; editDistance = 3.0 ; idf = 6.0
+NaiveAlgo : partial -> w = 0.857 ; lcsRatio = 0.571 ; editDistance = 4.0 ; idf = 6.0
+NaiveAlgo : posture -> w = 0.857 ; lcsRatio = 0.429 ; editDistance = 3.0 ; idf = 6.0
+NaiveAlgo : passbook -> w = 0.75 ; lcsRatio = 0.5 ; editDistance = 4.0 ; idf = 6.0
+NaiveAlgo : r
+NaiveAlgo : re -> w = 2.5 ; lcsRatio = 0.5 ; editDistance = 1.0 ; idf = 5.0
+NaiveAlgo : roi -> w = 1.667 ; lcsRatio = 0.333 ; editDistance = 1.0 ; idf = 5.0
+NaiveAlgo : rac -> w = 1.0 ; lcsRatio = 0.333 ; editDistance = 2.0 ; idf = 6.0
+NaiveAlgo : ray -> w = 0.833 ; lcsRatio = 0.333 ; editDistance = 2.0 ; idf = 5.0
+NaiveAlgo : run -> w = 0.833 ; lcsRatio = 0.333 ; editDistance = 2.0 ; idf = 5.0
+NaiveAlgo : wht
+NaiveAlgo : wet -> w = 1.667 ; lcsRatio = 0.667 ; editDistance = 2.0 ; idf = 5.0
+NaiveAlgo : wait -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0 ; idf = 6.0
+NaiveAlgo : want -> w = 1.25 ; lcsRatio = 0.5 ; editDistance = 2.0 ; idf = 5.0
+NaiveAlgo : without -> w = 1.071 ; lcsRatio = 0.429 ; editDistance = 2.0 ; idf = 5.0
+NaiveAlgo : why -> w = 1.0 ; lcsRatio = 0.667 ; editDistance = 2.0 ; idf = 3.0
+NaiveAlgo : spcl
+NaiveAlgo : spinal -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0 ; idf = 6.0
+NaiveAlgo : spelt -> w = 1.2 ; lcsRatio = 0.6 ; editDistance = 3.0 ; idf = 6.0
+NaiveAlgo : suspect -> w = 1.071 ; lcsRatio = 0.429 ; editDistance = 2.0 ; idf = 5.0
+NaiveAlgo : simple -> w = 1.0 ; lcsRatio = 0.5 ; editDistance = 3.0 ; idf = 6.0
+NaiveAlgo : such -> w = 0.833 ; lcsRatio = 0.5 ; editDistance = 3.0 ; idf = 5.0
+NaiveAlgo : 0 : how many days maximum would the bank require to re-credit the account for such wrong debits? -> 3.666666666666667
+NaiveAlgo : 1 :  whether re-imbursement of fees is permitted in education loan scheme? -> 3.6547619047619047
+NaiveAlgo : 2 : can women who had anorexia in the past get pregnant? -> 3.0
+NaiveAlgo : 3 : what is the roi at present? -> 2.952380952380952
+NaiveAlgo : 4 : what happens if after preparation of chart my ticket remains in rac and i don't want to travel? -> 2.856060606060606
+Main : ***** SHIVHRE *****
+ShivhreAlgo : Best question is finding...
+ShivhreAlgo : pasport
+ShivhreAlgo : property -> w = 0.615 ; lcsRatio = 0.5 ; smRatio = 0.615 ; idf = 6.0
+ShivhreAlgo : paper -> w = 0.6 ; lcsRatio = 0.6 ; smRatio = 0.6 ; idf = 5.0
+ShivhreAlgo : proper -> w = 0.545 ; lcsRatio = 0.5 ; smRatio = 0.545 ; idf = 6.0
+ShivhreAlgo : parts -> w = 0.54 ; lcsRatio = 0.6 ; smRatio = 0.6 ; idf = 6.0
+ShivhreAlgo : posture -> w = 0.429 ; lcsRatio = 0.429 ; smRatio = 0.5 ; idf = 6.0
+ShivhreAlgo : spcl
+ShivhreAlgo : spinal -> w = 0.9 ; lcsRatio = 0.5 ; smRatio = 0.6 ; idf = 6.0
+ShivhreAlgo : spelt -> w = 0.8 ; lcsRatio = 0.6 ; smRatio = 0.667 ; idf = 6.0
+ShivhreAlgo : simple -> w = 0.6 ; lcsRatio = 0.5 ; smRatio = 0.6 ; idf = 6.0
+ShivhreAlgo : school -> w = 0.5 ; lcsRatio = 0.5 ; smRatio = 0.6 ; idf = 5.0
+ShivhreAlgo : such -> w = 0.417 ; lcsRatio = 0.5 ; smRatio = 0.5 ; idf = 5.0
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+ShivhreAlgo : 0 : how many days maximum would the bank require to re-credit the account for such wrong debits? -> 2.32
+ShivhreAlgo : 1 : what should the investor do if his name has been wrongly spelt on the certificates given to him after a remat? -> 1.983
+ShivhreAlgo : 2 : what security do i have if the only proof of  holdings in the depository is merely a piece of paper indicating  account balance? -> 1.685
+ShivhreAlgo : 3 : what security does an investor have if only proof of his holdings in the depository is merely a piece of paper indicating his account balance? -> 1.685
+ShivhreAlgo : 4 : in case funds for accommodation of housing property have already been raised  me, can the additional loan on pari passu or 2nd charge basis be sanctioned to me  pnb? -> 1.675
+Database : Database disconnecting...
+Database : Database disconnected
+Database : 20921 requests executed during this session
+Executed in 63.513 sec

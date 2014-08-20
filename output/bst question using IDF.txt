@@ -1,0 +1,32 @@
+******khothari******
+QUERY: hw do i chk d rute of a train
+
+NaiveAlgo : 0 : how do i check the route of a train? -> 17.96666666666667
+NaiveAlgo : 1 : what is a authorized branch of d.p? -> 14.25
+NaiveAlgo : 2 : how do i cancel my ticket if the train has already departed? -> 10.017857142857142
+NaiveAlgo : 3 : how do i get compensated if i was forced to travel in a lower class than what i had booked, or ac was not working etc? -> 8.875
+NaiveAlgo : 4 : what happens if after preparation of chart my ticket remains in rac and i don't want to travel? -> 7.865079365079365
+
+
+
+ShivhreAlgo : 0 : how do i check the route of a train? -> 16.592
+ShivhreAlgo : 1 : how do i cancel  ticket if the train has already departed? -> 10.259
+ShivhreAlgo : 2 : what if i just want to obtain train schedules without making a reservation?? -> 8.257
+ShivhreAlgo : 3 :  do i get the details of some irrelevant trains if i try some enquiries? -> 6.996
+ShivhreAlgo : 4 : do i have to pay any additional fee/charge for withdrawing cash from other than the issuing branch? -> 6.337
+
+QUERY:hw cn i chk d fare for jrny
+
+
+NaiveAlgo : 0 : how can i check the fare for my journey? -> 15.119047619047617
+NaiveAlgo : 1 : how far in advance can the ticket be booked? -> 11.944444444444445
+NaiveAlgo : 2 : what is a authorized branch of d.p? -> 6.25
+NaiveAlgo : 3 : do i have to pay any additional fee/charge for withdrawing cash from other than the issuing branch? -> 6.166666666666666
+NaiveAlgo : 4 : how do i find out station code for a given station? -> 5.375
+
+
+ShivhreAlgo : 0 : how can i check the fare for  journey? -> 12.568
+ShivhreAlgo : 1 : how far in advance can the ticket be booked? -> 8.206
+ShivhreAlgo : 2 : is original id card essential to carry on travelling in ac class for i-ticket passenger? -> 5.429
+ShivhreAlgo : 3 : how much time before  date of journey should i give to ensure home delivery? -> 5.204
+ShivhreAlgo : 4 : how do i get compensated if i was forced to travel in a lower class than what i had booked, or ac was not working etc? -> 4.577

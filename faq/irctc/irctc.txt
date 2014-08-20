@@ -1,0 +1,452 @@
+* What are the various classes of travel and their codes?	
+Class	Code
+First class Air-Conditioned
+Executive class in Shatabdi trains	IA
+AC 2-tier sleeper	2A
+First class	FC
+AC 3 Tier	3A
+AC chair Car	CC
+Sleeper Class	SL
+Second Sitting	2S
+ 		 
+ 
+*What are the various Quotas available for booking through Internet?	
+At present, Internet booking is allowed only against General (GN),Tatkal, Senior citizen and Ladies (LD) Quotas.	 
+ 
+*How do I find out STATION CODE for a given station?	
+ The user can find the station codes by using the Station Code Finders provided on "Plan My Travel", "Fare Enquiry", "Trains From/To", and "Get Availability" pages. The user can enter the first three letters of the station name and click search to get the list of matching stations and the station codes.	 
+ 
+*How can I use the internet reservation facility to plan my journey?	
+Get yourself registered online by submitting the Registration Form available in this web site with your personal details. Further details are available at the terms and conditions page. To take you step by step and familiarise you with the procedure for booking of tickets please click HERE.
+ 
+ 
+*What is the mode of Payment?	
+ Payment Options : Click Here To know the list of payment options available along with bank / payment gateway transaction charges.	 
+ 
+*How much extra should I pay for my ticket?	
+IRCTC charges a service charge of Rs.40/- plus service tax per ticket in case of Second Class and Sleeper Class tickets and Rs.60/- plus service tax per ticket in case of tickets of other classes.(These charges are not per passenger) Apart from this service charge of IRCTC, transaction charges as notified will be levied by the banks for each transaction.	 
+
+
+*Is it safe to give the credit card number at this site?	
+ This is a VeriSign certified site (Click on the VeriSign logo to see the certificate). All the monetary transactions made on this site are secure. The credit card details are received on the site and transmitted to the Payment Gateways through secure SSL mode under 128-bit browser independent encryption. This site does not store or record the credit card details. All the transactions are handled directly by Payment Gateways only.	 
+ 
+*How secure is my Password?	
+ The Password entered by you is transmitted in one way encrypted form to our database and stored as such. The Password will not be known even to IRCTC. Thus you are solely responsible for the safe custody of your password.	 
+ 
+*How do I check the route of a train?	
+ You have to login and click on the Time Table link from the navigation menu on the left. The page asks for Train No. (Use the "Train Finder" for help, entering the first three letters of the train name) and the service Day of the train. After submission, the page displays the route of the train with the arrival and departure timings at all the stations and the distance of each station from the originating station.	 
+ 
+*How can I check the Fare for my journey?	
+ You have to login and click on the "Fares" link on the navigation menu. The page asks for the Train No. (Use "Train Finder" for assistance entering the first three letters of the train name), Origin & Destination Stations (Use "Station Finder" for assistance entering the first three letters of the station name), Date of Journey, the date being any service day of the train, Class (Select form the dropdown list box), Age and Concession desired to get the Fare for a single passenger.	 
+ 
+*I want to travel from (A) to (B). How can I find the trains available between the stations?	
+After logging in, click on the "Trains From/To" link from the left side navigation menu. The link takes you to a page where you are prompted to select the Source Station & Destination Station (Use ''the Station Finder'' for help entering the first three letters of the station name), Date, the date being any service day of the train; and Class (Select one from the dropdown box). The page displays the list of all the trains running on the date specified and with the desired class between the above pair of stations, with their service days. The screen also displays three buttons "Get Fare", "Show Route" and "Show availability" to get the Fare details, Train route and Availability Status details respectively	 
+
+*What are the different types of concessions available for Passengers?	
+ At present this site offers Concession tickets only to Senior Citizens. This concession is also offered only on specific request made by the User by clicking the relevant button on the online reservation form. Other concession tickets can be availed at the PRS counters at any Railway Reservation Office.(Children below 12 years need pay only 50% fare, as for normal tickets)	 
+
+*What are the rules for reservation and cancellation?	
+ Click on the 'Cancellation Procedure' link from the navigation menu.
+ 
+ 
+*Is cancellation possible on Internet? How will I get my ticket cancelled that I have booked at this site?	
+ At present, cancellation is not possible on the Internet. Cancellation of any ticket can be made at PRS counters at any Railway Reservation Office. No cash refunds will be made at the counter. The refund (after deducting the cancellation charges applicable as per Railway cancellation rules) will be credited back directly to your credit card / bank account electronically.	 
+
+*How do I cancel my ticket if the train has already departed?	
+ After the departure of the train up to the time / distance limit prescribed by Railway Commercial Rules the ticket can be cancelled normally at any of the Railway Reservation Counters where a "Cancellation Slip" will be given to you & the due refund amount will be credited back to your Credit card / Bank account. If these time limits also have lapsed you will be required to deposit the ticket with the reservation counter / station master & you will be issued a Ticket Deposit Receipt (TDR). This TDR should be sent in original to the following address immediately: 
+	 
+ 
+*How do I get compensated if I was forced to travel in a lower class than what I had booked, or AC was not working etc?	
+ In such cases the Guard Certificate (GC) issued by the train superintendent, TTE, Guard etc must be obtained and sent along with ticket in original to the following address immediately: 
+Indian Railway Catering and Tourism Corporation Ltd.
+1stFloor, Internet Ticketing Centre
+IRCA Building, State Entry Road,
+New Delhi - 110055.	 
+ 
+*How can I modify the details of my ticket?	
+Postponement / Advancement of journey, Change of passenger details, Change of boarding point etc, can be done across any Reservation counters subject to existing Railway rules. Payment, if any, has to be paid in Cash.	 
+	 
+ 
+*How much time before my date of journey should I give to ensure Home Delivery?	
+ Please click here to view the time required to deliver the ticket to various cities.
+ 
+
+*Can I book tickets from outside India?	
+Customers can book tickets from anywhere in the World, but, ticket can be delivered only in the cities mentioned click here. Customer can also get the ticket delivered to a Hotel, address of a friend / relative if it is in the area of delivery. In such cases, Customers are requested to inform the hotel authorities and IRCTC well in advance. Also at the time of delivery the person receiving the ticket on your behalf should produce an authority letter from the Registered User permitting her to receive the ticket, along with the PNR number of the ticket and her personal identification.	 
+
+*While booking, the amount was debited but ticket not booked. What should I do?	
+If for some reason, you could not see the ticket confirmation page, please check your "Booked Tickets" list, wherein the details of all the successfully booked tickets would be available. If you do not see the desired transaction on this list, it means that the ticket has not been booked. The amount debited would be credited back to you in full without levying any charges. You may retry the transaction for booking your ticket. If you face this problem very often please let us know immediately.	 
+
+*How do I know the status of the delivery of my ticket?	
+ You can track the status of delivery of your ticket by entering the PNR No. in the 'Track Your Ticket' page provided on the site, from the next day of booking the ticket. You may also contact the local courier office at the address / phone numbers provided on the same page. If you face any difficulty, please let us know immediately.	 
+
+*What details should I provide to the Courier for delivery of my ticket?	
+ You will be required to produce the proof of your identity in original along with the transaction ID and PNR No. of your ticket for verification. If you are authorizing some one to collect your ticket on your behalf, that person should have in addition to above, an authority letter, which should clearly contain the PNR No, from you for effecting delivery as well as proof of his/her identity.	 
+ 
+*What should I do if I don't see the confirmation of my booking on my screen?	
+On pressing the "Buy" button on the ticket reservation page, the payment is processed and the booking is done and the confirmation of your booking is displayed on your screen. If for any reason, the reservation output details are not displayed in your monitor, please check the details in menu "BOOKED TICKETS" under "Booking History" in Home Page. You may also check your e-mail for the details of your booking. You are also advised to contact IRCTC before trying to book the ticket again with the same particulars of journey.	 
+ 
+*Why do I get the details of some irrelevant trains if I try some enquiries?	
+ Your browser page may be displaying some old pages and may need refreshing. Press F5 or Refresh button on the browser. You may also need to set the "REFRESH" to be done automatically for every visit to the page in the Internet settings of your browser.	 
+ 
+*I had selected a particular berth preference, but have been allotted a different berth. Why is it so?	
+ The allotment of berths is done by the Centralised Reservation System of Indian Railways, which is based on a pre-defined logic. As per this logic, lower berths are allotted to Senior Citizens even without preference, and the berths are allotted as per preference on a first come first serve basis. Compact accommodation (for families / groups) is also attempted while allotting the berths. If the preferred berths are not available, then other available berths in General Quota as per the allotment logic would be allotted. IRCTC has no role in the allotment of berths.	 
+ 
+*What is Tatkal Booking ?	
+Click Here. To Know about Tatkal Booking through www.irctc.co.in.
+ 
+ *How can I get in touch with IRCTC?	
+You can reach us at care@irctc.co.in.Do contact us at 24*7 Hrs. Customer Support at 011-39340000	 
+ 
+*Is refund permissible against lost/misplaced I-tickets?	
+ No refund is permissible against lost/misplaced tickets. Loss of tickets be reported to railways immediately to prevent fraudulent use of lost tickets. However, duplicate ticket can be issued only in case of lost/torn/mutilated , confirmed or RAC Internet (I) tickets and the passenger can travel on the accommodation reserved for him as per extant Railway rules.	 
+ 
+*Is original ID card essential to carry on travelling in AC class for I-ticket passenger?	
+Yes,I-Ticket along with the ID proof in original would be verified by TTE with the name and PNR on the chart. If the passenger fails to produce due to any eventuality (lost)will be treated as travelling without ticket and shall be dealt with as per extant Railway Rules. .	 
+ 
+	
+*How can I cancel e-ticket and how will I get refund?	
+ E-Tickets (Reservations) can be cancelled only through Internet till Chart preparation of the train and it is not allowed at face to face Railway Counters. If the user wishes to cancel his e-Ticket, he can do so till the time of chart preparation for the train through the Internet. He can log on to www.irctc.co.in and go to Booked Tickets link and select the ticket to be cancelled and can initiate the cancellation by selecting the passengers to be cancelled. Cancellation would b e confirmed online and the refund would be credited back to the account used for booking as for normal Internet tickets. If there is any partial cancellation of ticket please ensure that the modified ticket (Electronic Reservation Slip) is printed separately as for the original ticket.	 
+ 
+	
+*How can I cancel e-ticket after preparation of chart?	
+For any claims on e-tickets to be cancelled after the preparation of Reservation charts, the user has to send an email at the earliest possible time to etickets@irctc.co.in giving full details of the ticket and stating the claim, which would then be processed by IRCTC with the Railway administration offline and refunds as sanctioned by the Railway administration would be credited back to the user's account.	 
+ 
+*What happens if after preparation of chart my ticket remains in RAC and I don't want to travel?	
+ If the user wishes to cancel his e-Ticket, he can do so till the time of chart preparation for the train through the Internet. No cancellation of e-ticket is permitted on-line after the chart preparation. For any claims on e-tickets to be cancelled after the preparation of Reservation charts, the user has to send an email at the earliest possible time to etickets@irctc.co.in giving full details of the ticket and stating the claim, which would then be processed by IRCTC with the Railway administration offline and refunds as sanctioned by the Railway administration would be credited back to the user's account.	 
+ 
+*What if I forget to carry Photo Identity card?	
+ One of the passenger booked on an E-ticket in a PNR is required to present any of the ten identity cards noted below in original during the train journey and same will be accepted as a proof of identity failing which the passenger will be treated as travelling without ticket and shall be dealt as per extant Railway Rules..	 
+	
+*How to postpone/prepone journey?	
+This can be done on line by cancelling the original ticket and booking a fresh ticket.	 
+ 
+	
+*How to change name of passenger?	
+*To know the procedure of changing the name of passenger click here.
+ 
+	
+*Can partial cancellation be done?	
+ Yes. Partial Cancellation can be done. He can log on to www.irctc.co.in and go to “Booked Tickets” link and select the ticket to be cancelled and can initiate cancellation by selecting the passengers to be cancelled.	 
+ 
+	
+*can I book break -journey ticket?	
+Presently this facility is not available for internet tickets	 
+ 
+	
+*Can I book student/other concession ticket?	
+ No This facility is not available for e-Ticket and I-Ticket.	 
+ 
+	
+*What is Tatkal Ticket?	
+Click Here To Know About Tatkal Booking on irctc.co.in.
+ 
+	
+*How much extra should I pay for my e-ticket?	
+IRCTC levies a service charge of Rs.10/- plus service tax (Second / Sleeper) and Rs.20/- plus service tax per e-ticket in case of all other classes(1AC,2AC,3AC,CC,3E,FC) irrespective of the number of passengers booked on an e-ticket.	
+ 
+
+*What is IRCTC mobile?
+IRCTC mobile is a unique secure transaction solution residing on your mobile phone, which allows you to book railway tickets from anywhere and anytime. The IRCTC mobile has an attractive and user-friendly interface to facilitate easy navigation and has capability to book tickets in real time and store tickets details, making it an ideal ticketing solution.
+
+
+*How does the railway ticketing through IRCTC mobile work?
+Once you enter your mobile number in the IRCTC web page, you will be automatically registered, post which you can download and install IRCTC mobile on your java-enabled mobile phone. You can start booking railway tickets through your IRCTC mobile and pay through the credit card/ cash card.
+
+
+*What are the pre-requisites for using the IRCTC mobile?
+•The pre-requisites for using the IRCTC mobile are:
+•You need to be a IRCTC user
+•Have a Java enabled mobile phone or a smart phone
+•Have GPRS service activated on your mobile phone
+•Have a credit card/cash card
+
+
+*How do I know if my mobile is Java enabled?
+To check if your phone is Java enabled:
+1.Refer to your phone book manual, or
+2.Refer to the phone manufacturer's website
+
+
+*Where do I check my phone’s model number?
+The model number is generally printed inside the phone where the battery is placed. The same could also be found in the user manual provided along with the phone. Some mobiles provide options to display the model number.
+
+
+*What is GPRS?
+GPRS stands for General Packet Radio Service. It is an enhancement to the GSM mobile communications system, which allows internet browsing on a mobile phone as well as connecting to data services.
+
+*How do I get GPRS service?
+Please call your mobile operator and subscribe to a GPRS connection.
+
+*What are the charges for GPRS service?
+Please contact your mobile operator.
+
+*How quickly can I get my GPRS service activated?
+Please contact your mobile operator.
+
+*Mobile operator offers multiple GPRS plans. Which one should I subscribe to use IRCTC mobile?
+Railway ticketing through IRCTC mobile will work on all the GPRS plans of various mobile operators.
+
+*What are the benefits of using the railway ticketing service through IRCTC mobile?
+You can now book your tickets from anywhere and at anytime using your IRCTC mobile application residing on your mobile phone. It gives you an increased convenience through a secure, real time ticketing services.
+
+*What are the features related to railway ticketing available through the IRCTC mobile?
+Presently, railway ticketing is the only service available through IRCTC mobile and the following features are available:
+1.Register to IRCTC through mobile phone
+2.Book ticket through your mobile phone
+3.View booked ticket details
+4.View train route
+5.View fare
+6.View availability
+7.View train details
+8.Manage passenger list on IRCTC mobile
+9.Fast booking option
+
+*Do I need to be registered to use the IRCTC mobile?
+Yes. You need to register yourself with IRCTC for using the IRCTC mobile or from the web site www.irctc.co.in
+
+*How do I register for the railway ticketing service through IRCTC mobile? 
+Steps for registering for railway ticketing IRCTC mobile service:
+1.User enters the mobile number
+2.User gets registered for IRCTC ticketing through IRCTC mobile
+3.Post registration,user receives a service SMS (also called as WAP SMS) from IRCTC containing the link
+
+*How do I download IRCTC mobile?
+ post registration, user receives a service SMS (WAP SMS) containing a link:
+1.User accepts the WAP SMS by selecting it or by accepting it or by clicking the link in the WAP SMS
+2.This will result in downloading of the IRCTC mobile application
+3.The application will prompt the user to ‘install’
+4.User selects ‘Yes’ to install the application on to the mobile phone
+5.Once installed, IRCTC mobile icon will appear on the phone menu/games/application/my own folders.
+
+*How do I activate the IRCTC mobile?
+Please follow the steps given below to activate IRCTC mobile on your mobile phone:
+1.Select the IRCTC mobile icon on your mobile phone
+2.Set a PIN for IRCTC mobile. This PIN will be used for your future logins
+3.IRCTC mobile will connect to the IRCTC’s back end server and initiate the activation process
+4.IRCTC mobile will download the necessary information by synchronizing with the IRCTC's backend server. The IRCTC mobile main menu is now activated on the phone screen
+
+*Can I change my IRCTC mobile PIN?
+Yes. IRCTC mobile provides you an option to change your PIN.
+
+*How can I change my IRCTC mobile PIN?
+The procedure for changing your IRCTC mobile PIN is:
+1.Login to IRCTC mobile
+2.Go to options and select ‘Change PIN’
+3.Enter old PIN, followed by the new PIN and select OK to change PIN.
+4.A message is displayed once the PIN is changed successfully
+5.Select ‘Back’ to return to the main scre
+
+*What if I forget my IRCTC mobile PIN?
+In case you forget your PIN, on 3 consecutive incorrect PIN entries the application will get locked. 
+
+*What if the IRCTC mobile gets locked?
+IRCTC mobile gets locked on three successive incorrect PIN entries. 'Your IRCTC mobile is locked’ message will be displayed. Follow the procedure mentioned below:
+1.Call the IRCTC customer care and request for unlocking the IRCTC mobile
+2.Provide the required information for verification of identity
+3.You would receive an unlocking code from the IRCTC customer care
+4.Select ‘Unlock’ on the IRCTC mobile
+5.Enter Unlocking code and set new PIN for IRCTC mobile
+6.IRCTC mobile connects to the server to unlock IRCTC mobile
+7.IRCTC mobile is unlocked successfully. Press ‘Ok’ to return to the main menu
+
+*How do I navigate through IRCTC mobile? 
+IRCTC mobile currently consists of 4 icons on the main screen:
+1.Shubh Yatra: Presently this service is not available on the mobile.Visit www.irctc.co.in for details
+2.Tourism: Presently this service is not available on the mobile.Visit www.irctc.co.in for details
+3.Offers: Presently this service will is not available on the mobile.Visit www.irctc.co.in for details
+4.Booking: This menu contains all the features which have been mentioned above
+5.The main screen has the ‘Options’ menu, which consists of:
+oSync
+oChange PIN
+oMove Icon
+oUpgrade
+oAbout
+oExit
+oSelect any item by pressing the ENTER key or Joystick on the phone, or by selecting menu.
+ 
+ *Can I use debit cards or do a direct bank debit?
+No, you cannot use your debit card or direct bank debit.
+
+
+*. What are the payment options?
+Currently, you can pay using any Visa/MasterCard or ITZ Cash Cards.
+ Will my credit card information in the IRCTC mobile be safe?
+The credit card information in the IRCTC mobile is transmitted in an 128 bit encrypted format that can’t be retrieved by anyone.
+
+*How much will I be charged per transaction done through IRCTC mobile?
+The transaction charges for railway ticketing will be the same as in the case of IRCTC. However, the mobile operator will additionally charge for the GPRS as per the subscribed GPRS plan.
+
+*Are transactions made through the IRCTC mobile secure?
+Transactions made through the IRCTC mobile are completely secure. IRCTC mobile has built in features at every level that make it nearly impossible for anyone to break through the security net. The transmitted data is encrypted, and even the data stored on the mobile is in an encrypted format. IRCTC mobile architecture addresses the following security requirements:
+1.Privacy - Information sent from one party to the other is completely confidential
+2.Integrity - Information sent from one party to the other cannot be altered without detection
+3.Authentication - Verification of both party’s identities
+4.Non-repudiation - All messages between both parties are signed, ensuring an auditable record of the transaction.
+
+*What is IRCTC login and password? 
+You need to register with IRCTC to get a IRCTC login and password. You can register through IRCTC mobile (This may not be available on all mobile handsets) or by visiting www.irctc.co.in. By default the mobile will have Guest Login and password for IRCTC. With this login and password you will be able to do everything related to IRCTC except ticket booking through your mobile. For booking, you need to register with IRCTC and login to IRCTC mobile with your IRCTC login ID and password.
+
+*How can I add passengers to the passenger list stored on the mobile? 
+On high-end phones, you can add any number of passengers to the 'Passenger List'. On low-end phones due to lack of sufficient memory you can add a limited number of passengers. The procedure for adding passenger details to the passenger list is:
+1.Open IRCTC mobile with the appropriate PIN
+2.Select ‘Ticketing’ icon
+3.Customer Select ‘Passenger List’ icon
+4.Select ‘Add’ from ‘Options’
+5.Enter the passenger details as requested in the screen and Select ‘Add’ in 'Options'
+6.Passenger name will appear in the list
+
+*How many passengers can be added to the list?
+On high-end phones, you can add any number of passengers to the 'Passenger List'. On low-end phones due to lack of sufficient memory you can add a limited number of passengers.
+
+*How do I view the passenger details?
+To view passenger details:
+1.Open IRCTC mobile with the appropriate PIN
+2.Select 'Booking'
+3.Select on ‘Reservation’ icon
+4.Customer Select ‘Passenger List’ icon
+5.Select ‘View’ from ‘Options’
+6.Passenger details are displayed on IRCTC mobile
+
+*How do I edit the passenger details? 
+To edit your passenger details:
+1.Open IRCTC mobile with the appropriate PIN
+2.Select 'Booking'
+3.Customer Select ‘Passenger List’ icon
+4.Select ‘Edit’ from ‘Options’
+5.Modify the passenger details as desired on the screen and select ‘Update’
+6.Passenger details will be updated and stored in IRCTC mobile
+
+*How can I delete the passenger details? 
+The procedure for deleting the passenger details are:
+1.Open IRCTC mobile with the appropriate PIN
+2.Select 'Booking'
+3.Customer Select ‘Passenger List’ icon
+4.Select ‘Delete’ from ‘Options’
+5.Confirm if you wish to delete the entry
+6.Passenger details will be deleted from the list
+
+*Can I add a passenger while booking? 
+Yes, you can add passengers while booking your ticket. Follow the steps given below:
+1.Open IRCTC mobile with the appropriate PIN
+2.Select 'Booking'
+3.Select ‘Reservation’ icon
+4.Select the ‘Book Ticket’ icon in IRCTC mobile & select the train for travel.
+5.Select ‘Add New ’ from ‘Options’
+6.Enter the passenger details as requested in the screen and Select ‘Add’ in Options
+7.Passenger name will appear in the list
+
+*Can I edit the details of the passenger while booking? 
+Yes, the steps to edit the passenger while booking are as follows:
+1.Select the ‘Reservation’ icon in IRCTC mobile & select the train for travel.
+2.Add the required passengers from the list
+3.Select ‘Edit’ from ‘Options’ to edit any of the selected passengers
+4.Enter the passenger details as requested in the screen and Select ‘Add’ in Options
+5.Passenger name will appear in the list
+
+*How far in advance can the ticket be booked? 
+Through IRCTC mobile, you can book a train up to 90 days in advance and 2-3 clear days in advance excluding the date of journey.
+
+*Can I make a reservation for anyone? 
+Yes, you can book through IRCTC mobile for anyone.
+
+*Can I book for all destinations through IRCTC mobile? 
+You can book I-tickets on IRCTC mobile for all the destinations.
+
+*What if I do not receive an I-ticket through the courier? 
+If you fail to receive I-ticket in 2-3 clear days, you can contact IRCTC call center and enquire about the status giving relevant ticket details. You can also mail at care@irctc.co.in. Alternatively you can track you ticket by entering the PNR number in the 'Track your ticket'page provided on the irctc.co.in website, from the next day of booking the ticket. You can contact your local Overnite Express courier office, produce proof of identity along with transaction ID and PNR number and collect your ticket.
+
+*How many passengers in a ticket can I book using the IRCTC mobile?
+You can book a maximum of 6 seats at a time (adults and children included) using the IRCTC mobile.
+
+*How many I-tickets can I store on my mobile?
+The number of I-tickets that can be stored on the mobile depends on the phone’s memory.
+
+*How do I view my stored I-tickets on the IRCTC mobile?
+The procedure for viewing an I-ticket on IRCTC mobile is:
+1.Open IRCTC mobile with the appropriate PIN
+2.Select ‘My Tickets’ icon
+3.Select from 'last booked ticket' or 'Fetch all tickets'
+4.You will be able to view all the ticket details like: PNR, Ticket no., passenger name, fare details, train details etc
+
+*What if I just want to obtain train schedules without making a reservation??
+To obtain only the train schedules
+
+*Can I cancel or get the refund of the ticket booked through the IRCTC mobile?
+The cancellation of the ticket can’t be done from the IRCTC mobile. For cancellation you have to follow normal procedure of cancellation over the counter. The refund money will be credited back electronically to the same credit/cash card which has been used for booking tickets. The refund may take around 1-3 days from the date of cancellation.
+
+*What if I lose my mobile? 
+If you loose your mobile:
+1.Call the customer IRCTC care centre
+2.Provide details for verification of identity
+3.Request for blocking the IRCTC mobile
+4.Perform a Change of Handset (for details refer FAQ 48), once you avail your new phone
+
+
+
+*. What if I change my mobile handset or change my SIM cardof my mobile? 
+If you buy a new handset but use your old SIM (Old Mobile No.), follow the registration and download procedure as mentioned in FAQ 16 and FAQ 17. Please ensure that you have deleted the IRCTC mobile application in the old handset.
+
+
+*If I change my handset will my I-tickets stored on my old handset be available on my new handset?
+Yes, in case of any change in handset after following the ‘Change Device’ procedure (for details refer F.A.Q 48) all the details will be available in the IRCTC mobile on the new phone.
+
+*Can anyone else use my IRCTC mobile?
+No. A PIN protects IRCTC mobile, which ensures that only an authorized user accesses IRCTC mobile. After 3 consecutive wrong inputs of the PIN, the IRCTC mobile gets locked. Please do not share your pin with anyone for security reasons.
+
+*Why should I synchronize IRCTC mobile?
+Synchronizing will keep your IRCTC mobile updated with the latest information. To synchronize your IRCTC mobile, press Sync in Options on the main screen of your IRCTC mobile. A message will be displayed, with summary of downloaded items.
+
+*How do I synchronize the IRCTC mobile?
+The procedure for synchronizing the IRCTC mobile is:
+1.Select the ‘Sync’ option in the main screen of your IRCTC mobile
+2.The synchronization process will be initiated
+3.Summary of the uploaded or downloaded items will be displayed on the phone screen
+4.Select ‘OK’ to return to the main screen
+
+*What if the GPRS connection breaks while booking the ticket?
+If GPRS connection breaks while booking the I-ticket, IRCTC mobile will display the appropriate error message. Please select the ‘Retry’ option to try again.
+
+*What if the GPRS connection breaks after I have entered the card details?
+If GPRS connection breaks at any point, please select the ‘Retry’ option to try again. If you exit IRCTC mobile without retrying in the following cases, the transaction will remain pending and can be completed the next time you login to IRCTC mobile. In case any money gets deducted without the booking process getting completed, the same will be refunded back.
+
+
+*What if my mobile goes off because of low battery while booking the ticket?
+If your mobile goes off because of low battery in the following cases the transaction will remain pending and can be completed the next time you login to the IRCTC mobile.
+
+
+*What if I receive a call or SMS while booking the ticket?
+If you receive, a call or SMS while booking the ticket IRCTC mobile will work in background and will not be affected. But if the duration of call is long the IRCTC mobile will logout automatically after sometime to ensure security.
+
+
+*While downloading, I get a message saying "Un-trusted Application". What should I do?
+Please select ‘Yes’ for this option. This option is specific to the mobile device and would not affect the application or mobile phone.
+
+
+*Does IRCTC mobile have a similar appearance on all phones?
+The functionality of the IRCTC mobile remains same for all the phones. The appearance although might change from phone to phone depending on the visual interface of the phone.
+
+
+*What is IRCTC mobile Lite version?
+Since heap memory size and JAR size, which are important for running Java applications on mobile phones, vary from phone to phone, C-SAM has developed a IRCTC mobile version which can run on mobile phones with constraints of heap memory and JAR size. This is called IRCTC mobile Lite version.
+
+
+*What are the features available on IRCTC mobile Lite version?
+IRCTC mobile Lite version has all the features except the following restrictions:
+1.Application icon and all other images will not be displayed
+2.Number of passengers that can be stored depends upon the memory of the device
+3.Fast Booking icon will not be provided
+4.Only 1 ticket will be stored IRCTC mobile
+
+
+*Will IRCTC mobile work on CDMA mobile connections like TTSL, TTML, Reliance, MTNL Garuda, BSNL WLL?
+No. Presently IRCTC mobile service is available only for GSM users with appropriate GPRS connection.
+
+
+*After entering mobile number on the IRCTC website, I did not receive the SMS?
+On entering the mobile number, you shall receive a service SMS (also called as WAP Push Message). This is a special SMS containing a URL link. Please check your 'Message Inbox' or 'Service Message Inbox'. This message might be received in either of these locations depending upon your handset model. In some cases, you may need to enable the message settings to allow receipt of this service message. For enabling the message setting, please do the following Go to Messaging>Options>Settings>Service Messages>OFF. Turn this to ON to receive the WAP Push
+
+*How do I recommend this application to my friends?
+On the IRCTC mobile home screen, please select 'Refer a friend' from options. Enter you friend's mobile number, friend's name and your name and select send. Your friend will receive a WAP SMS. Please ensure that your friend has GPRS. Your friend will not be charged anything, whereas you will incur only data cost as per your GPRS plan.
+
+ 

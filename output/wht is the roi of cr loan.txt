@@ -1,0 +1,150 @@
+***************************************************
+******************* WITHOUT IDF *******************
+***************************************************
+Main : ***** KOTHARI *****
+NaiveAlgo : Best question is finding...
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+NaiveAlgo : cr
+NaiveAlgo : car -> w = 0.667 ; lcsRatio = 0.667 ; editDistance = 1.0
+NaiveAlgo : cure -> w = 0.5 ; lcsRatio = 0.5 ; editDistance = 1.0
+NaiveAlgo : care -> w = 0.5 ; lcsRatio = 0.5 ; editDistance = 1.0
+NaiveAlgo : courier -> w = 0.286 ; lcsRatio = 0.286 ; editDistance = 1.0
+NaiveAlgo : carrier -> w = 0.286 ; lcsRatio = 0.286 ; editDistance = 1.0
+NaiveAlgo : of
+NaiveAlgo : of -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : off -> w = 0.667 ; lcsRatio = 0.667 ; editDistance = 1.0
+NaiveAlgo : on -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : or -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : one -> w = 0.167 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : is
+NaiveAlgo : is -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : issue -> w = 0.4 ; lcsRatio = 0.4 ; editDistance = 1.0
+NaiveAlgo : in -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : if -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : it -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : wht
+NaiveAlgo : what -> w = 0.75 ; lcsRatio = 0.75 ; editDistance = 1.0
+NaiveAlgo : why -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : who -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : wet -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : when -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : roi
+NaiveAlgo : roi -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : role -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : raise -> w = 0.2 ; lcsRatio = 0.4 ; editDistance = 2.0
+NaiveAlgo : route -> w = 0.2 ; lcsRatio = 0.4 ; editDistance = 2.0
+NaiveAlgo : rac -> w = 0.167 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : the
+NaiveAlgo : the -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : teeth -> w = 0.4 ; lcsRatio = 0.4 ; editDistance = 1.0
+NaiveAlgo : they -> w = 0.375 ; lcsRatio = 0.75 ; editDistance = 2.0
+NaiveAlgo : then -> w = 0.375 ; lcsRatio = 0.75 ; editDistance = 2.0
+NaiveAlgo : ten -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : loan
+NaiveAlgo : loan -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : loans -> w = 0.4 ; lcsRatio = 0.8 ; editDistance = 2.0
+NaiveAlgo : long -> w = 0.375 ; lcsRatio = 0.75 ; editDistance = 2.0
+NaiveAlgo : land -> w = 0.375 ; lcsRatio = 0.75 ; editDistance = 2.0
+NaiveAlgo : login -> w = 0.3 ; lcsRatio = 0.6 ; editDistance = 2.0
+NaiveAlgo : 0 : what is the roi on car loans? -> 5.066666666666667
+NaiveAlgo : 1 :  what is the objective of bank’s education loan schemes? -> 4.75
+NaiveAlgo : 2 : what is the nature of the loan facility? -> 4.75
+NaiveAlgo : 3 : what is the procedure for disbursement of the loan? -> 4.75
+NaiveAlgo : 4 : what is the rate of interest to be charged on loans under this scheme? -> 4.3464285714285715
+Main : ***** SHIVHRE *****
+ShivhreAlgo : Best question is finding...
+ShivhreAlgo : cr
+ShivhreAlgo : car -> w = 0.533 ; lcsRatio = 0.667 ; smRatio = 0.8
+ShivhreAlgo : cure -> w = 0.333 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : care -> w = 0.333 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : card -> w = 0.167 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : cord -> w = 0.167 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : loan
+ShivhreAlgo : loan -> w = 0.333 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : long -> w = 0.167 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : land -> w = 0.167 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : lung -> w = 0.167 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : lens -> w = 0.167 ; lcsRatio = 0.5 ; smRatio = 0.667
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+ShivhreAlgo : 0 : what is the procedure for disbursement of the loan? -> 4.776
+ShivhreAlgo : 1 : what is the nature of the loan facility? -> 4.723
+ShivhreAlgo : 2 :  what is the objective of bank’ education loan schemes? -> 4.716
+ShivhreAlgo : 3 : what is the roi on car loans? -> 4.657
+ShivhreAlgo : 4 : what is the rate of interest to be charged on loans under this scheme? -> 4.097
+***************************************************
+******************* WITH IDF **********************
+***************************************************
+Main : ***** KOTHARI *****
+NaiveAlgo : Best question is finding...
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+NaiveAlgo : cr
+NaiveAlgo : car -> w = 3.333 ; lcsRatio = 0.667 ; editDistance = 1.0
+NaiveAlgo : care -> w = 2.5 ; lcsRatio = 0.5 ; editDistance = 1.0
+NaiveAlgo : cure -> w = 2.0 ; lcsRatio = 0.5 ; editDistance = 1.0
+NaiveAlgo : carrier -> w = 1.714 ; lcsRatio = 0.286 ; editDistance = 1.0
+NaiveAlgo : co -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : of
+NaiveAlgo : off -> w = 4.0 ; lcsRatio = 0.667 ; editDistance = 1.0
+NaiveAlgo : of -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : our -> w = 1.0 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : odd -> w = 0.833 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : on -> w = 0.75 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : is
+NaiveAlgo : issue -> w = 2.0 ; lcsRatio = 0.4 ; editDistance = 1.0
+NaiveAlgo : isin -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : id -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : is -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : issued -> w = 1.0 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : wht
+NaiveAlgo : wet -> w = 1.667 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : wait -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : want -> w = 1.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : without -> w = 1.071 ; lcsRatio = 0.429 ; editDistance = 2.0
+NaiveAlgo : why -> w = 1.0 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : roi
+NaiveAlgo : roi -> w = 5.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : raise -> w = 1.2 ; lcsRatio = 0.4 ; editDistance = 2.0
+NaiveAlgo : route -> w = 1.2 ; lcsRatio = 0.4 ; editDistance = 2.0
+NaiveAlgo : rac -> w = 1.0 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : role -> w = 1.0 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : the
+NaiveAlgo : then -> w = 2.25 ; lcsRatio = 0.75 ; editDistance = 2.0
+NaiveAlgo : ten -> w = 2.0 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : teeth -> w = 2.0 ; lcsRatio = 0.4 ; editDistance = 1.0
+NaiveAlgo : they -> w = 1.875 ; lcsRatio = 0.75 ; editDistance = 2.0
+NaiveAlgo : tea -> w = 1.667 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : loan
+NaiveAlgo : land -> w = 2.25 ; lcsRatio = 0.75 ; editDistance = 2.0
+NaiveAlgo : loan -> w = 2.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : login -> w = 1.8 ; lcsRatio = 0.6 ; editDistance = 2.0
+NaiveAlgo : loans -> w = 1.6 ; lcsRatio = 0.8 ; editDistance = 2.0
+NaiveAlgo : loss -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : 0 : what is the roi on car loans? -> 12.433333333333332
+NaiveAlgo : 1 : what if my mobile goes off because of low battery while booking the ticket? -> 7.216666666666667
+NaiveAlgo : 2 : what is maximum repayment period under car loan scheme? -> 7.1574074074074066
+NaiveAlgo : 3 :  whether re-imbursement of fees is permitted in education loan scheme? -> 7.071428571428571
+NaiveAlgo : 4 : what is the roi at present? -> 6.75
+Main : ***** SHIVHRE *****
+ShivhreAlgo : Best question is finding...
+ShivhreAlgo : cr
+ShivhreAlgo : car -> w = 2.667 ; lcsRatio = 0.667 ; smRatio = 0.8
+ShivhreAlgo : care -> w = 1.667 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : cure -> w = 1.333 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : cord -> w = 1.0 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : co -> w = 0.75 ; lcsRatio = 0.5 ; smRatio = 0.5
+ShivhreAlgo : loan
+ShivhreAlgo : land -> w = 1.0 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : lens -> w = 1.0 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : lung -> w = 0.833 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : login -> w = 0.686 ; lcsRatio = 0.4 ; smRatio = 0.571
+ShivhreAlgo : loan -> w = 0.667 ; lcsRatio = 0.5 ; smRatio = 0.667
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+ShivhreAlgo : 0 : what is the roi on car loans? -> 11.131
+ShivhreAlgo : 1 : what is maximum repayment period under car loan scheme? -> 6.754
+ShivhreAlgo : 2 : can a car loan be sanctioned for purchase of old car? -> 6.083
+ShivhreAlgo : 3 :  whether re-imbursement of fees is permitted in education loan scheme? -> 5.892
+ShivhreAlgo : 4 : if i have 5 acre of unirrigated land, am i eligible under the scheme? -> 5.39

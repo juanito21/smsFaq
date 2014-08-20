@@ -96,6 +96,7 @@ public class DataHandler {
 	 */
 	public <V> int addSomething(String tableName, LinkedHashMap<String, V> data, String msg) {
 		String sql = "INSERT INTO " + tableName + "(" + getFieldUpdateFormat(data) + ") values (" + getDataValueUpdateFormat(data.size()) + ");"; 
+		log(TAG, sql);
 		int id = -1;
 		int i = 1;
 		try {
@@ -110,6 +111,27 @@ public class DataHandler {
 			log(TAG, "An error was detected while adding " + msg + " : " + getDataValue(data));
 			e.printStackTrace();
 		} return id;
+	}
+	
+	/**
+	 * Update something from the database
+	 * @param tableName : the table name
+	 * @param fieldCompare : the field to compare
+	 * @param updateField : the field to update
+	 * @param valueCompare : the value to compare
+	 * @param newValue : the new value after the update
+	 */
+	public void updateSomething(String tableName, String fieldCompare, String updateField, String valueCompare, String newValue) {
+		String sql = "UPDATE " + tableName + " SET " + updateField + " = ? WHERE " + fieldCompare + " = ?;";
+		try {
+			preStmnt = (PreparedStatement) db.getConnection().prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+			preStmnt.setDouble(1,Double.parseDouble(newValue));
+			preStmnt.setString(2,valueCompare);
+			db.execUpdate(preStmnt);
+		} catch (SQLException e) {
+			log(TAG, "An error was detected while updating a " + tableName + " : " + valueCompare);
+			e.printStackTrace();
+		}
 	}
 	
 	/**
@@ -135,7 +157,37 @@ public class DataHandler {
 		} return b;
 	}
 
+	/**
+	 * Get something from the database
+	 * @param tableName
+	 * @param fieldGet
+	 * @param fieldCompare
+	 * @param value
+	 * @return the first line returned from the database
+	 */
+	public int getSomething(String tableName, String fieldGet, String fieldCompare, String value) {
+		String sql = "SELECT (" + fieldGet  + ") FROM " + tableName + " WHERE " + fieldCompare + " = ?;";
+		int res = -1;
+		try {
+			preStmnt = (PreparedStatement) db.getConnection().prepareStatement(sql);
+			preStmnt.setString(1,value);
+			rs = db.execQuery(preStmnt);
+			if(rs.next()) res = rs.getInt(fieldGet);
+			rs.close();
+		} catch (SQLException e) {
+			log(TAG, "An error was detected while getting a " + tableName + " : " + value);
+			e.printStackTrace();
+		} return res;
+		
+	}
 	
+	/**
+	 * Get all line from a table in the database
+	 * @param tableName : the name of the table
+	 * @param fn1 : the first field of returned tuple
+	 * @param fn2 : the second field of returned tuple
+	 * @return the list of tuple
+	 */
 	public List<Map.Entry<Integer, String>> getAllSomething(String tableName, String fn1, String fn2) {
 		String sql = "SELECT * FROM " + tableName + ";";
 		List<Map.Entry<Integer, String>> L = new ArrayList<Map.Entry<Integer, String>>();
@@ -146,6 +198,30 @@ public class DataHandler {
 			while(rs.next()) {
 				tuple = new AbstractMap.SimpleEntry<Integer, String>(rs.getInt(fn1), rs.getString(fn2));
 				L.add(tuple);
+			}
+			rs.close();
+		} catch (SQLException e) {
+			log(TAG, "An error was detected while getting " + tableName + " list");
+			e.printStackTrace();
+		} return L;
+	}
+	
+	/**
+	 * Get all line from table in the database
+	 * @param tableName : the table name
+	 * @param fieldGet : the field to get
+	 * @return the list of single tuple
+	 */
+	public List<String> getAllSomething(String tableName, String fieldGet) {
+		String sql = "SELECT * FROM " + tableName + ";";
+		List<String> L = new ArrayList<String>();
+		try {
+			preStmnt = (PreparedStatement) db.getConnection().prepareStatement(sql);
+			rs = db.execQuery(preStmnt);
+			String s;
+			while(rs.next()) {
+				s = rs.getString(fieldGet);
+				L.add(s);
 			}
 			rs.close();
 		} catch (SQLException e) {

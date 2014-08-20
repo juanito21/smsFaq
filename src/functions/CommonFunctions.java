@@ -76,6 +76,7 @@ public class CommonFunctions {
 		}
 		return res;
 	}
+	
 	/**
 	 * Get a tab of terms from a String
 	 * @param s : the String
@@ -178,6 +179,18 @@ public class CommonFunctions {
 	}
 	
 	/**
+	 * Delete stop words from a String
+	 * @param src : the SMS disemvoweled
+	 * @param words : the list of stop words
+	 * @return the SMS without stop words
+	 */
+	public static String deleteWordsSinghal(String src, List<String> words) {
+		for(String w : words) {
+			src = src.replaceAll("\\b" + w + "\\b", "");
+		} return src;
+	}
+	
+	/**
 	 * Count the numbers of words matching in both string
 	 * @param s : the first string
 	 * @param t : the second string
@@ -192,6 +205,109 @@ public class CommonFunctions {
 				if(str1.equals(str2)) res ++;
 			}
 		} return res;
+	}
+	
+	/**
+	 * Compute a score about the prefix char matching between two strings
+	 * @param t : the term
+	 * @param s : the sms token
+	 * @return the score
+	 */
+	public static double preCharMatchM(String t, String s) {
+		int j = 0;
+		int i = 0;
+		while(i<s.length()) {
+			if(t.charAt(j)==s.charAt(j)) {
+				j++;
+			} else break;
+			i++;
+		}
+		return (double)j/(double)s.length();
+	}
+	
+	/**
+	 * Rewrite this function with read char by char... 2014/06/16
+	 * Consonant skeleton allows to remove consecutive chars and vowels from a string
+	 * @param s is the string
+	 * @return the new string without consecutive chars and vowels
+	 */
+	public static String cs(String s) {
+		char[] chars = s.toCharArray();
+		String res = "";
+		char lastChar = '*';
+		for(int i=0;i<chars.length;i++) {
+			if(!Character.toString(chars[i]).matches("[aeiou]+") && chars[i] != lastChar) {
+				res += chars[i];
+				lastChar = chars[i];
+			}
+		}
+		return res;
+	}
+	
+	/**
+	 * Consonant skeleton ratio
+	 * @param s : the sms term
+	 * @param t : the term
+	 * @return the consonant skeleton ratio
+	 */
+	public static double csr(String s, String t) {
+		if(cs(t).length() == cs(s).length()) {
+			return (double)s.length()/(double)t.length();
+		} return 0.0;
+	}
+	
+	/**
+	 * Compute the truncation ratio (Singhal paper)
+	 * @param s : the sms token
+	 * @param t : the term
+	 * @return the truncation ratio
+	 */
+	public static double truncRatio(String s, String t) {
+		if(s.length()>=3 && s.length()<=t.length()) {
+			if(t.substring(0, s.length()).equals(s)) {
+				return (double)s.length()/(double)t.length();
+			}
+		} return 0.0;
+	}
+	
+	/**
+	 * Compute the ratio between the LCS of two strings and the length of the term
+	 * @param t is the first string
+	 * @param s is the second string
+	 * @return the ratio (between 0 and 1)
+	 */
+	public static double lcsRatio(String t, String s) {
+		return (double)lcs(t,s)/t.length();
+	}
+	
+	/**
+	 * Compute the edit distance between two strings with the levenshtein distance
+	 * @param t is the first string
+	 * @param s is the second string
+	 * @return the edit distance
+	 */
+	public static int editDistance(String t, String s) {
+		return levenshteinDistance(cs(t), cs(s)) + 1;
+	}
+	
+	/**
+	 * Delete word with 1 char
+	 * @param sms
+	 * @return
+	 */
+	public static String deleteSingleChar(String sms) {
+		String res = sms.replaceAll("\\b\\w{1,1}\\b\\s?", "");
+		return res;
+	}
+	
+	/**
+	 * Similarity measure ratio
+	 * @param s : sms token
+	 * @param t : term
+	 * @return the ratio of similarity measure
+	 */
+	public static double smRatio(String s, String t) {
+		return (2*((double)lcs(s,t)/(s.length()+t.length())));
 	}
 	
 }

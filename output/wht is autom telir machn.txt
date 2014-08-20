@@ -1,0 +1,138 @@
+***************************************************
+******************* WITHOUT IDF *******************
+***************************************************
+Main : ***** KOTHARI *****
+NaiveAlgo : Best question is finding...
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+NaiveAlgo : is
+NaiveAlgo : is -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : issue -> w = 0.4 ; lcsRatio = 0.4 ; editDistance = 1.0
+NaiveAlgo : in -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : if -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : it -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : telir
+NaiveAlgo : teller -> w = 0.667 ; lcsRatio = 0.667 ; editDistance = 1.0
+NaiveAlgo : their -> w = 0.4 ; lcsRatio = 0.8 ; editDistance = 2.0
+NaiveAlgo : there -> w = 0.3 ; lcsRatio = 0.6 ; editDistance = 2.0
+NaiveAlgo : total -> w = 0.2 ; lcsRatio = 0.4 ; editDistance = 2.0
+NaiveAlgo : tumor -> w = 0.2 ; lcsRatio = 0.4 ; editDistance = 2.0
+NaiveAlgo : wht
+NaiveAlgo : what -> w = 0.75 ; lcsRatio = 0.75 ; editDistance = 1.0
+NaiveAlgo : why -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : who -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : wet -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : when -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : autom
+NaiveAlgo : autism -> w = 0.333 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : assume -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : autoimmune -> w = 0.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : acute -> w = 0.2 ; lcsRatio = 0.6 ; editDistance = 3.0
+NaiveAlgo : about -> w = 0.2 ; lcsRatio = 0.6 ; editDistance = 3.0
+NaiveAlgo : machn
+NaiveAlgo : machine -> w = 0.714 ; lcsRatio = 0.714 ; editDistance = 1.0
+NaiveAlgo : marihuana -> w = 0.222 ; lcsRatio = 0.444 ; editDistance = 2.0
+NaiveAlgo : margin -> w = 0.167 ; lcsRatio = 0.5 ; editDistance = 3.0
+NaiveAlgo : meant -> w = 0.15 ; lcsRatio = 0.6 ; editDistance = 4.0
+NaiveAlgo : macular -> w = 0.143 ; lcsRatio = 0.429 ; editDistance = 3.0
+NaiveAlgo : 0 : what is an automated teller machine (atm)? -> 4.1309523809523805
+NaiveAlgo : 1 : what should one do if he forgets pin or the card is sucked in by the atm? -> 2.9722222222222223
+NaiveAlgo : 2 : what is the roi at present? -> 2.4722222222222223
+NaiveAlgo : 3 : what security do i have if the only proof of my holdings in the depository is merely a piece of paper indicating my account balance? -> 2.430555555555556
+NaiveAlgo : 4 : my spouse and i both have achondroplasia. what is the probability that we will have a child of average stature? -> 2.430555555555556
+Main : ***** SHIVHRE *****
+ShivhreAlgo : Best question is finding...
+ShivhreAlgo : telir
+ShivhreAlgo : teller -> w = 0.167 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : try -> w = 0.148 ; lcsRatio = 0.667 ; smRatio = 0.667
+ShivhreAlgo : true -> w = 0.143 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : tear -> w = 0.143 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : there -> w = 0.1 ; lcsRatio = 0.4 ; smRatio = 0.5
+ShivhreAlgo : autom
+ShivhreAlgo : time -> w = 0.333 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : term -> w = 0.167 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : to -> w = 0.125 ; lcsRatio = 0.5 ; smRatio = 0.5
+ShivhreAlgo : times -> w = 0.114 ; lcsRatio = 0.4 ; smRatio = 0.571
+ShivhreAlgo : tumor -> w = 0.114 ; lcsRatio = 0.4 ; smRatio = 0.571
+ShivhreAlgo : machn
+ShivhreAlgo : machine -> w = 0.416 ; lcsRatio = 0.571 ; smRatio = 0.727
+ShivhreAlgo : much -> w = 0.281 ; lcsRatio = 0.75 ; smRatio = 0.75
+ShivhreAlgo : mini -> w = 0.083 ; lcsRatio = 0.5 ; smRatio = 0.5
+ShivhreAlgo : micr -> w = 0.083 ; lcsRatio = 0.5 ; smRatio = 0.5
+ShivhreAlgo : main -> w = 0.083 ; lcsRatio = 0.5 ; smRatio = 0.5
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+ShivhreAlgo : 0 : what is an automated teller machine (atm)? -> 2.931
+ShivhreAlgo : 1 : what is to be done if there are any discrepancies in the statement of holdings? -> 1.977
+ShivhreAlgo : 2 : can a fresh debit card issued in lieu of lost/damaged card and what is the amount to be charged? -> 1.89
+ShivhreAlgo : 3 : what is the minimum & maximum loan amount one can avail under personal loan scheme to pensioners? -> 1.89
+ShivhreAlgo : 4 : what is the security to be provided for this loan? -> 1.868
+***************************************************
+******************* WITH IDF **********************
+***************************************************
+Main : ***** KOTHARI *****
+NaiveAlgo : Best question is finding...
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+NaiveAlgo : is
+NaiveAlgo : issue -> w = 2.0 ; lcsRatio = 0.4 ; editDistance = 1.0
+NaiveAlgo : isin -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : id -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : is -> w = 1.0 ; lcsRatio = 1.0 ; editDistance = 1.0
+NaiveAlgo : issued -> w = 1.0 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : telir
+NaiveAlgo : teller -> w = 4.0 ; lcsRatio = 0.667 ; editDistance = 1.0
+NaiveAlgo : their -> w = 2.0 ; lcsRatio = 0.8 ; editDistance = 2.0
+NaiveAlgo : total -> w = 1.2 ; lcsRatio = 0.4 ; editDistance = 2.0
+NaiveAlgo : tumor -> w = 1.2 ; lcsRatio = 0.4 ; editDistance = 2.0
+NaiveAlgo : toilet -> w = 1.0 ; lcsRatio = 0.333 ; editDistance = 2.0
+NaiveAlgo : wht
+NaiveAlgo : wet -> w = 1.667 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : wait -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : want -> w = 1.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : without -> w = 1.071 ; lcsRatio = 0.429 ; editDistance = 2.0
+NaiveAlgo : why -> w = 1.0 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : autom
+NaiveAlgo : autism -> w = 1.667 ; lcsRatio = 0.667 ; editDistance = 2.0
+NaiveAlgo : assume -> w = 1.5 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : autoimmune -> w = 1.25 ; lcsRatio = 0.5 ; editDistance = 2.0
+NaiveAlgo : automated -> w = 1.111 ; lcsRatio = 0.556 ; editDistance = 3.0
+NaiveAlgo : action -> w = 1.0 ; lcsRatio = 0.5 ; editDistance = 3.0
+NaiveAlgo : machn
+NaiveAlgo : machine -> w = 4.286 ; lcsRatio = 0.714 ; editDistance = 1.0
+NaiveAlgo : marihuana -> w = 1.111 ; lcsRatio = 0.444 ; editDistance = 2.0
+NaiveAlgo : meant -> w = 0.9 ; lcsRatio = 0.6 ; editDistance = 4.0
+NaiveAlgo : margin -> w = 0.833 ; lcsRatio = 0.5 ; editDistance = 3.0
+NaiveAlgo : macular -> w = 0.714 ; lcsRatio = 0.429 ; editDistance = 3.0
+NaiveAlgo : 0 : what is an automated teller machine (atm)? -> 14.035714285714285
+NaiveAlgo : 1 : what should one do if he forgets pin or the card is sucked in by the atm? -> 5.75
+NaiveAlgo : 2 : my son is ten and he occasionally grinds his teeth at night, when will he outgrow this habit? -> 4.833333333333333
+NaiveAlgo : 3 : with so much ascitic fluid, don’t i need to restrict water? -> 4.4904761904761905
+NaiveAlgo : 4 : at the initial stage of the disease, what should the patients find out from their doctors? -> 4.464285714285714
+Main : ***** SHIVHRE *****
+ShivhreAlgo : Best question is finding...
+ShivhreAlgo : telir
+ShivhreAlgo : teller -> w = 1.0 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : try -> w = 0.889 ; lcsRatio = 0.667 ; smRatio = 0.667
+ShivhreAlgo : true -> w = 0.714 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : tear -> w = 0.714 ; lcsRatio = 0.5 ; smRatio = 0.571
+ShivhreAlgo : tumor -> w = 0.6 ; lcsRatio = 0.4 ; smRatio = 0.5
+ShivhreAlgo : autom
+ShivhreAlgo : time -> w = 1.667 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : term -> w = 0.833 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : tumor -> w = 0.686 ; lcsRatio = 0.4 ; smRatio = 0.571
+ShivhreAlgo : ttml -> w = 0.667 ; lcsRatio = 0.5 ; smRatio = 0.667
+ShivhreAlgo : times -> w = 0.571 ; lcsRatio = 0.4 ; smRatio = 0.571
+ShivhreAlgo : machn
+ShivhreAlgo : machine -> w = 2.494 ; lcsRatio = 0.571 ; smRatio = 0.727
+ShivhreAlgo : much -> w = 1.125 ; lcsRatio = 0.75 ; smRatio = 0.75
+ShivhreAlgo : mini -> w = 0.5 ; lcsRatio = 0.5 ; smRatio = 0.5
+ShivhreAlgo : micr -> w = 0.5 ; lcsRatio = 0.5 ; smRatio = 0.5
+ShivhreAlgo : main -> w = 0.5 ; lcsRatio = 0.5 ; smRatio = 0.5
+ListFunctions : Collection is retrieving...
+ListFunctions : Collection retrieved !
+ShivhreAlgo : 0 : what is an automated teller machine (atm)? -> 8.469
+ShivhreAlgo : 1 : with so much ascitic fluid, don’ i need to restrict water? -> 3.49
+ShivhreAlgo : 2 : can these cards be used at any bank atm in the country? -> 2.592
+ShivhreAlgo : 3 :  what is a micr code? -> 2.428
+ShivhreAlgo : 4 : what is the highest level of total carbohydrate intake permitted during the maintenance phase? -> 2.406

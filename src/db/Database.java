@@ -16,7 +16,7 @@ import com.mysql.jdbc.PreparedStatement;
  */
 public class Database {
 
-	private static String DB_NAME = "smsfaq_dev";
+	private static String DB_NAME = "smsfaq_new";
 	private static String PASSWORD = "";
 	private static String USER = "root";
 	private static String SGBD = "mysql";
@@ -24,28 +24,54 @@ public class Database {
 	private static String TAG = "Database";
 	
 	protected static String T_QUESTIONS = "questions";
-	protected static String Q_ID= "id";
+	protected static String Q_ID= "idquestion";
 	protected static String Q_QUESTION = "question";
+	protected static String Q_IDSOURCE = "idsource";
 	
 	protected static String T_ANSWERS = "answers";
-	protected static String A_ID= "id";
+	protected static String A_ID= "idanswer";
 	protected static String A_ANSWER = "answer";
 	
 	protected static String T_TERMS = "terms";
-	protected static String T_ID= "id";
+	protected static String T_ID= "idterm";
 	protected static String T_TERM = "term";
+	protected static String T_IDF = "idf";
 	
 	protected static String T_DICT = "dictionaryTerms";
 	protected static String D_ID = "id";
 	protected static String D_TERM = "term";
 	
 	protected static String T_QUESTIONSTERMS = "questionsterms";
-	protected static String QT_IDQUESTION = "idQuestion";
-	protected static String QT_IDTERM = "idTerm";
+	protected static String QT_IDQUESTION = "idquestion";
+	protected static String QT_IDTERM = "idterm";
 	
-	protected static String T_QUESTIONSANSWERS = "questionsAnswers";
-	protected static String QA_IDQUESTION = "idQuestion";
-	protected static String QA_IDANSWER = "idAnswer";
+	protected static String T_QUESTIONSANSWERS = "questionsanswers";
+	protected static String QA_IDQUESTION = "idquestion";
+	protected static String QA_IDANSWER = "idanswer";
+	
+	protected static String T_TAGS = "tags";
+	protected static String T_IDTAG = "idtag";
+	protected static String T_TAG = "tag";
+	
+	protected static String T_QUESTIONSTAGS = "questionstags";
+	//protected static String QT_IDQUESTION = "idquestion";
+	protected static String QT_IDTAG = "idtag";
+	
+	protected static String T_DOMAINS = "domains";
+	protected static String D_IDDOMAIN = "iddomain";
+	protected static String D_NAME = "name";
+	
+	protected static String T_TAGSDOMAINS = "tagsdomains";
+	protected static String TD_IDTAG = "idtag";
+	protected static String TD_IDDOMAIN = "iddomain";
+	
+	protected static String T_MOSTFREQUENCYWORDS = "mostfrequencywords";
+	protected static String MFW_IDTERM = "idterm";
+	protected static String MFW_IDTAG = "idtag";
+	
+	protected static String T_SOURCES = "sources";
+	protected static String S_IDSOURCE = "idsource";
+	protected static String S_NAME = "name";
 	
 	protected static String T_STOPWORDS = "stopwords";
 	protected static String SW_ID = "id";
